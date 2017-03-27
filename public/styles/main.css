@@ -41,17 +41,28 @@ body {
 }
 
 .me_pic {
-  width: 40%;
+  width: 20%;
   clip-path: circle(50% at 50%);
+}
+
+@media (max-width: 600px) {
+  .me_pic  {
+    width: 40%;
+  }
 }
 
 .me_figcaption {
   margin-top: 3rem;
-  margin-bottom: 1rem;
   text-align: center;
   font-family: 'Source Code Pro', monospace;
   font-size: 3rem;
   font-weight: 600;
+}
+
+@media (max-width: 600px) {
+  .me_figcaption  {
+    margin-bottom: 1rem;
+  }
 }
 
 .me_job {
@@ -91,4 +102,18 @@ body {
 .contact_social:hover {
   opacity: 0.6;
   transition: all 0.5s ease-out;
+}
+
+.curriculum-vitae {
+  display: block;
+}
+
+@media (max-width: 600px) {
+  .curriculum-vitae  {
+    display: none;
+  }
+}
+
+.curriculum-vitae_figcaption {
+  text-align: center;
 }
