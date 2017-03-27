@@ -6,6 +6,7 @@ html {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  height: 100%;
 }
 
 body {
@@ -17,7 +18,7 @@ body {
   height: 100%;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 750px) {
   html {
     font-size: 6px;
   }
@@ -37,6 +38,8 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 0;
+    margin: 0;
 }
 
 .me_pic {
@@ -44,7 +47,7 @@ body {
   clip-path: circle(50% at 50%);
 }
 
-@media (max-width: 600px) {
+@media (max-width: 750px) {
   .me_pic  {
     width: 40%;
   }
@@ -58,7 +61,7 @@ body {
   font-weight: 600;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 750px) {
   .me_figcaption  {
     margin-bottom: 1rem;
   }
@@ -73,7 +76,7 @@ body {
   font-weight: 200;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 750px) {
   .me_job {
     font-size: 2.5rem;
   }
@@ -107,7 +110,7 @@ body {
   display: block;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 750px) {
   .curriculum-vitae  {
     display: none;
   }
