@@ -38,23 +38,25 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 0;
+    padding: 4rem 0 0 0;
     margin: 0;
+    height: auto;
 }
 
 .me_pic {
   width: 20%;
   clip-path: circle(50% at 50%);
+  margin-bottom: 0.5rem;
 }
 
 @media (max-width: 750px) {
   .me_pic  {
     width: 40%;
+    margin-bottom: 3rem;
   }
 }
 
 .me_figcaption {
-  margin-top: 3rem;
   text-align: center;
   font-family: 'Source Code Pro', monospace;
   font-size: 3rem;
@@ -63,13 +65,12 @@ body {
 
 @media (max-width: 750px) {
   .me_figcaption  {
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
   }
 }
 
 .me_job {
   display: block;
-  margin-top: 10px;
   text-align: center;
   font-family: 'Space Mono', monospace;
   font-size: 2rem;
