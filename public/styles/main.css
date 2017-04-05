@@ -44,7 +44,6 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /*padding: 0;*/
     margin: 0;
     height: auto;
 }
@@ -68,7 +67,14 @@ body {
   }
 }
 
+@media (max-width: 300px) {
+  .me_pic  {
+    width: 80%;
+  }
+}
+
 .me_figcaption {
+  width: 46rem;
   text-align: center;
   font-family: 'Source Code Pro', monospace;
   font-size: 3rem;
@@ -81,12 +87,24 @@ body {
   }
 }
 
+@media (max-width: 300px) {
+  .me_figcaption  {
+    width: 100%;
+  }
+}
+
 .me_job {
   display: block;
   text-align: center;
   font-family: 'Space Mono', monospace;
   font-size: 2rem;
   font-weight: 200;
+}
+
+@media (max-width: 300px) {
+  .me_job  {
+    margin-top: 2rem;
+  }
 }
 
 .contact_socials {

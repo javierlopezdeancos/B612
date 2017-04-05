@@ -1,6 +1,11 @@
 {
-  "name": "Javier Lopez de Ancos",
+  "name": "Curriculum vitae de Javier Lopez de Ancos",
+  "author": "@javierland",
   "short_name": "javierlopezdeancos",
+  "developer": {
+    "name": "Javier López de Ancos",
+    "url": "https://twitter.com/javierland"
+  }
   "icons": [
     {
       "src": "images/chrome-icon-2x.png",
@@ -19,7 +24,7 @@
     }
   ],
   "start_url": "index.html",
-  "background_color": "#054d44",
-  "theme_color": "#054d44",
+  "background_color": "#f0db4f",
+  "theme_color": "#f0db4f",
   "display": "standalone"
 }
