@@ -1,3 +1,3 @@
-let craft = craft || {};
+let japp = japp;
 
-const DATA_URL = 'data.craftsmanship.wedeploy.me';
+const DATA_URL = 'data.javierlopezdeancos.wedeploy.me';
