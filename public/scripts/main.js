@@ -1,10 +1,7 @@
-let japp = japp;
-
 const DATA_URL = 'data.javierlopezdeancos.wedeploy.me';
-
 const PROFILES_END_POINT = '/profile';
 
-japp.profile = (function () {
+let japp= (function () {
 
     const ME_NODE_ID = 'me';
     const CONTACT_NODE_ID = 'contact';
@@ -18,7 +15,7 @@ japp.profile = (function () {
                 </figcaption>
             </figure>`;
 
-        japp.dom(`#${ME_NODE_ID}`).render(template);
+        mydom(`#${ME_NODE_ID}`).render(template);
     }
 
     function renderContact(contact) {
@@ -30,7 +27,7 @@ japp.profile = (function () {
           </li>`;
     }
 
-    function renderContacts(contacts) {
+    function renderContact(contacts) {
         let contactsRendered = '';
         let template = '';
 
@@ -43,7 +40,7 @@ japp.profile = (function () {
                 ${contactsRendered}
             </ul>`;
 
-        japp.dom(`#${CONTACT_NODE_ID}`).render(template);
+        mydom(`#${CONTACT_NODE_ID}`).render(template);
     }
 
     function render(profile) {
@@ -65,4 +62,4 @@ japp.profile = (function () {
 
 })();
 
-japp.profile.initialize();
+japp.initialize();
