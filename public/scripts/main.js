@@ -1,5 +1,5 @@
 const DATA_URL = 'data.javierlopezdeancos.wedeploy.me';
-const PROFILES_END_POINT = '/profile';
+const PROFILE_END_POINT = '/profile';
 
 let japp= (function () {
 
