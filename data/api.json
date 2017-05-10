@@ -1,7 +1,7 @@
 [
 	{
 		"description": "Returns Javier López profile",
-		"path": "/profile/*",
+		"path": "/*",
 		"method": "GET",
 		"data": true
 	}
