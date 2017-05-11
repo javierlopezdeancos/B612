@@ -4,5 +4,11 @@
 		"path": "/*",
 		"method": "GET",
 		"data": true
+	},
+	{
+		"description": "Stores Javier López profile",
+		"path": "/profile",
+		"method": "POST",
+		"data": true
 	}
 ]
