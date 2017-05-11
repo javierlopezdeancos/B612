@@ -15,7 +15,7 @@ let japp= (function () {
                 </figcaption>
             </figure>`;
 
-        mydom(`#${ME_NODE_ID}`).render(template);
+        document.getElementById(`#${ME_NODE_ID}`).innerHTML(template);
     }
 
     function renderContact(contact) {
@@ -40,7 +40,7 @@ let japp= (function () {
                 ${contactsRendered}
             </ul>`;
 
-        mydom(`#${CONTACT_NODE_ID}`).render(template);
+        document.getElementById(`#${CONTACT_NODE_ID}`).innerHTML(template);
     }
 
     function render(profile) {
