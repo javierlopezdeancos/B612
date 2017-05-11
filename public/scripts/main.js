@@ -27,7 +27,7 @@ let japp= (function () {
           </li>`;
     }
 
-    function renderContact(contacts) {
+    function renderContacts(contacts) {
         let contactsRendered = '';
         let template = '';
 
@@ -44,15 +44,15 @@ let japp= (function () {
     }
 
     function render(profile) {
-        renderMe();
-        renderContact();
+        renderMe(profile.personal_information);
+        renderContacts(profile.personal_information.contact);
     }
 
     function initialize() {
         return WeDeploy.data(DATA_URL)
             .get(PROFILE_END_POINT)
             .then(function(profile) {
-                render(profile);
+                render(profile[0]);
             });
     }
 
