@@ -10,7 +10,8 @@ let japp= (function () {
         const template = `
             <figure class="me_figure">
                 <img class="me_pic" src="images/me.png" alt=${member.name + member.surname}/>
-                <figcaption class="me_figcaption">${member.name  + member.surname}
+                <figcaption class="me_figcaption">
+                    ${member.name} ${member.surname}
                     <span class="me_job">${member.description}</span>
                 </figcaption>
             </figure>`;
@@ -18,26 +19,26 @@ let japp= (function () {
         document.getElementById(`${ME_NODE_ID}`).innerHTML = template;
     }
 
-    function renderContact(contact) {
+    function renderContact(socialNetwork) {
         return  `
           <li class="contact_social">
-            <a href=${contact.social_networks.profile}>
-              <img src="images/social_${contact.social_networks.network}.svg" alt=${contact.social_networks.network} />
+            <a href=${socialNetwork.profile}>
+              <img src="images/social_${socialNetwork.network}.svg" alt=${socialNetwork.network} />
             </a>
           </li>`;
     }
 
-    function renderContacts(contacts) {
+    function renderContacts(socialNetworks) {
         let contactsRendered = '';
         let template = '';
 
-        for (let contact; contact <= contacts.length; contact++) {
-            contactsRendered += renderContact(contacts[contact]);
+        for (let socialNetwork; socialNetwork <= socialNetworks.length; socialNetwork++) {
+            socialNetworksRendered += renderContact(socialNetworks[socialNetwork]);
         }
 
         template = `
             <ul class="contact_socials">
-                ${contactsRendered}
+                ${socialNetworksRendered}
             </ul>`;
 
         document.getElementById(`${CONTACT_NODE_ID}`).innerHTML = template;
@@ -45,7 +46,7 @@ let japp= (function () {
 
     function render(profile) {
         renderMe(profile.personal_information);
-        renderContacts(profile.personal_information.contact);
+        renderContacts(profile.personal_information.social_networks);
     }
 
     function initialize() {
