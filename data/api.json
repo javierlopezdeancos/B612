@@ -10,5 +10,11 @@
 		"path": "/profile",
 		"method": "POST",
 		"data": true
+	},
+	{
+		"description": "Update Javier López profile",
+		"path": "/profile",
+		"method": "PUT",
+		"data": true
 	}
 ]
