@@ -29,7 +29,7 @@ let japp= (function () {
     }
 
     function renderContacts(socialNetworks) {
-        let contactsRendered = '';
+        let socialNetworksRendered = '';
         let template = '';
 
         for (let socialNetwork; socialNetwork <= socialNetworks.length; socialNetwork++) {
