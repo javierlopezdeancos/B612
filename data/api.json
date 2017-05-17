@@ -14,7 +14,7 @@
 	{
 		"description": "Update Javier López profile",
 		"path": "/profile",
-		"method": "PUT",
+		"method": "DELETE",
 		"data": true
 	}
 ]
