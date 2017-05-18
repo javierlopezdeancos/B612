@@ -7,7 +7,7 @@ let japp= (function () {
     const CONTACT_NODE_ID = 'contact';
     let myProfile = {};
 
-    function setMyprofile(myCurrentProfile) {
+    function setMyProfile(myCurrentProfile) {
         myProfile = myCurrentProfile;
     }
 
