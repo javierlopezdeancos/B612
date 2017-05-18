@@ -5,6 +5,11 @@ let japp= (function () {
 
     const ME_NODE_ID = 'me';
     const CONTACT_NODE_ID = 'contact';
+    let myProfile = {};
+
+    function setMyprofile(myCurrentProfile) {
+        myProfile = myCurrentProfile;
+    }
 
     function renderMe(member) {
         const template = `
@@ -44,7 +49,7 @@ let japp= (function () {
         document.getElementById(`${CONTACT_NODE_ID}`).innerHTML = template;
     }
 
-    function render(myProfile) {
+    function render() {
         renderMe(myProfile.personal_information);
         renderContacts(myProfile.personal_information.social_networks);
     }
@@ -53,7 +58,8 @@ let japp= (function () {
         return WeDeploy.data(DATA_URL)
             .get(PROFILE_END_POINT)
             .then(function(profile) {
-                render(profile[0]);
+                setMyProfile(profile[0]);
+                render();
             });
     }
 
