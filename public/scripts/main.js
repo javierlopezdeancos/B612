@@ -37,7 +37,7 @@ let japp= (function () {
         let socialNetworksRendered = '';
         let template = '';
 
-        for (let socialNetwork = 0; socialNetwork <= socialNetworks.length; socialNetwork++) {
+        for (let socialNetwork = 0; socialNetwork < socialNetworks.length; socialNetwork++) {
             socialNetworksRendered += renderContact(socialNetworks[socialNetwork]);
         }
 
