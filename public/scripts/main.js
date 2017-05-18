@@ -44,9 +44,9 @@ let japp= (function () {
         document.getElementById(`${CONTACT_NODE_ID}`).innerHTML = template;
     }
 
-    function render(profile) {
-        renderMe(profile.personal_information);
-        renderContacts(profile.personal_information.social_networks);
+    function render(myProfile) {
+        renderMe(myProfile.personal_information);
+        renderContacts(myProfile.personal_information.social_networks);
     }
 
     function initialize() {
