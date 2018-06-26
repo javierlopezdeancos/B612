@@ -33,7 +33,7 @@
             "year": "2007"
         },
         {
-            "level": "degree",
+            "level": "Degree",
             "title": "Technical Electronic Engineer",
             "year": "2003"
         }
@@ -117,7 +117,7 @@
         "libraries_frameworks": [
             "jQuery",
             "backbone",
-            "angular1/2",
+            "angular1/2/4/x",
             "react",
             "redux",
             "underscore",
@@ -125,7 +125,7 @@
             "require.js",
             "closure compiler",
             "browserify",
-            "webpack1/2",
+            "webpack1/2/x",
             "grunt",
             "gulp",
             "dojo",
@@ -133,6 +133,7 @@
             "mocha",
             "sinon",
             "jasmine",
+            "jest",
             "enzyme",
             "bower",
             "npm",
@@ -144,13 +145,13 @@
     "languages": ["spanish", "english", "french"],
     "projects": [
         "Cuoore framework",
-        "craftsmanship-toledo Meetup",
-        "kairoslab",
+        "GDG Toledo Meetup",
+        "Kairoslab",
         "BBVA",
         "Castillalamancha.es",
-        "rumbo",
-        "packlink",
-        "pro.packlink.es",
+        "Rumbo",
+        "Packlink",
+        "Packllink Pro",
         "envios.ebay.es"
     ]
 }]
