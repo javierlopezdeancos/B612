@@ -24,6 +24,10 @@
             {
                 "network": "github",
                 "profile": "https://github.com/javierlopezdeancos"
+            },
+            {
+                "network": "spotify",
+                "profile": "https://open.spotify.com/user/vagabundo"
             }
         ]
     },

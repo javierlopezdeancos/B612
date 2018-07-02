@@ -1,4 +1,4 @@
-const DATA_URL = 'data.javierlopezdeancos.wedeploy.io';
+const DATA_URL = 'data-b612.wedeploy.io';
 const PROFILE_END_POINT = '/profile';
 
 let japp= (function () {
@@ -13,11 +13,11 @@ let japp= (function () {
 
     function renderMe(member) {
         const template = `
-            <figure class="me_figure">
-                <img class="me_pic" src="images/me.png" alt=${member.name + member.surname}/>
-                <figcaption class="me_figcaption">
+            <figure class="me__figure">
+                <img class="me__pic" src="images/me.png" alt=${member.name + member.surname}/>
+                <figcaption class="me__figcaption">
                     ${member.name} ${member.surname}
-                    <span class="me_job">${member.description}</span>
+                    <span class="me__job">${member.description}</span>
                 </figcaption>
             </figure>`;
 
@@ -26,7 +26,7 @@ let japp= (function () {
 
     function renderContact(socialNetwork) {
         return  `
-          <li class="contact_social">
+          <li class="contact__social">
             <a href=${socialNetwork.profile}>
               <img src="images/social_${socialNetwork.network}.svg" alt=${socialNetwork.network} />
             </a>
@@ -42,7 +42,7 @@ let japp= (function () {
         }
 
         template = `
-            <ul class="contact_socials">
+            <ul class="contact__socials">
                 ${socialNetworksRendered}
             </ul>`;
 

@@ -23,7 +23,7 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 10px;
-  grid-template-areas: 
+  grid-template-areas:
     ". a a ."
     ". a a. ";
   margin: 0;
@@ -39,7 +39,7 @@ body {
   justify-self: center;
 }
 
-.me_figure {
+.me__figure {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -49,31 +49,31 @@ body {
 }
 
 @media (min-width: 750px) and (orientation: landscape) {
-  .me_figure  {
+  .me__figure  {
     padding-top: 6vh;
   }
 }
-    
-.me_pic {
+
+.me__pic {
   width: 20%;
   clip-path: circle(50% at 50%);
   margin-bottom: 0.5rem;
 }
 
 @media (max-width: 750px) {
-  .me_pic  {
+  .me__pic  {
     width: 40%;
     margin-bottom: 3rem;
   }
 }
 
 @media (max-width: 300px) {
-  .me_pic  {
+  .me__pic  {
     width: 80%;
   }
 }
 
-.me_figcaption {
+.me__figcaption {
   width: 46rem;
   text-align: center;
   font-family: 'Source Code Pro', monospace;
@@ -82,18 +82,18 @@ body {
 }
 
 @media (max-width: 750px) {
-  .me_figcaption  {
+  .me__figcaption  {
     margin-bottom: 2rem;
   }
 }
 
 @media (max-width: 300px) {
-  .me_figcaption  {
+  .me__figcaption  {
     width: 100%;
   }
 }
 
-.me_job {
+.me__job {
   display: block;
   text-align: center;
   font-family: 'Space Mono', monospace;
@@ -102,12 +102,12 @@ body {
 }
 
 @media (max-width: 300px) {
-  .me_job  {
+  .me__job  {
     margin-top: 2rem;
   }
 }
 
-.contact_socials {
+.contact__socials {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -116,23 +116,24 @@ body {
   padding-left: 0;
 }
 
-.contact_social {
+.contact__social {
   display: inline-block;
   margin-right: 10px;
   opacity: 0.2;
 }
 
-.contact_social:last-child {
+.contact__social:last-child {
   margin-right: 0;
 }
 
-.contact_social:hover {
+.contact__social:hover {
   opacity: 0.6;
   transition: all 0.5s ease-out;
 }
 
 .curriculum-vitae {
   display: block;
+  position: relative;
 }
 
 @media (max-width: 750px) {
@@ -141,6 +142,13 @@ body {
   }
 }
 
-.curriculum-vitae_figcaption {
+.curriculum-vitae__figcaption {
   text-align: center;
+}
+
+.curriculum-vitae__shell {
+  left: 70px;
+  width: 600px;
+  position: absolute;
+  top: 40px;
 }
