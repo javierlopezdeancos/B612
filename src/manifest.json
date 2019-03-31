@@ -1,5 +1,9 @@
 {
+  "manifest_version": 2,
   "name": "Curriculum vitae de Javier Lopez de Ancos",
+  "version": "0.2.0",
+  "default_locale": "es",
+  "description": "javierlopezdeancos asteroid",
   "author": "@javierland",
   "short_name": "javierlopezdeancos",
   "developer": {
