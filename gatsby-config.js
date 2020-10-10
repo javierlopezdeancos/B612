@@ -1,7 +1,7 @@
 const siteMetadata = {
   title: `Roma no se conquistó en un story point`,
   description: `.`,
-  author: `javierlopezdeancos.dev`,
+  author: `blog.javierlopezdeancos.dev`,
   bio: "Im Javier López de Ancos and I'm Software Engineer",
   socials: [
     {
