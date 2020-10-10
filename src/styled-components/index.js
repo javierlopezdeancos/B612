@@ -15,7 +15,7 @@ export const MainBlogTitle = styled.h2`
 `
 
 export const Divider = styled.div`
-  border-left:1px solid #333; 
+  border-left: 1px solid #333;
   height: 20px;
   display: inline;
   margin: 0 10px;

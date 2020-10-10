@@ -1,11 +1,12 @@
-import React from "react"
-import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
+import "./layout.scss"
+
+import { graphql, useStaticQuery } from "gatsby"
 
 import Header from "../header/header"
-import Footer from "../footer/footer"
+import PropTypes from "prop-types"
+import React from "react"
 
-import "./layout.scss"
+const componentName = "app"
 
 const Layout = ({ children, headless }) => {
   const data = useStaticQuery(graphql`
@@ -20,25 +21,14 @@ const Layout = ({ children, headless }) => {
   `)
 
   return (
-    <>
-      {
-        headless ? null : <Header siteTitle={data.site.siteMetadata.title} />
-      }
-      <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0 1.0875rem 1.45rem`,
-        }}
-      >
-        <section>
-          <article>
-            {children}
-          </article>
+    <main className={`${componentName}`}>
+      {headless ? null : <Header siteTitle={data.site.siteMetadata.title} />}
+      <div className={`${componentName}-body-wrapper`}>
+        <section className={`${componentName}-body`}>
+          <article className={`${componentName}-posts`}>{children}</article>
         </section>
-        <Footer title={data.site.siteMetadata.author} />
       </div>
-    </>
+    </main>
   )
 }
 

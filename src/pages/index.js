@@ -1,16 +1,19 @@
-import React from "react"
-import { graphql } from "gatsby"
-
-import Layout from "../components/layout/layout"
-import SEO from "../components/seo/seo"
+import "./posts.scss"
 
 import { BlogLink, BlogTitle, PrePost } from "../styled-components/index"
+
+import Layout from "../components/layout/layout"
+import React from "react"
+import SEO from "../components/seo/seo"
+import { graphql } from "gatsby"
+
+const componentName = "posts"
 
 export default ({ data }) => (
   <Layout>
     <SEO title="Home" />
     {data.allMarkdownRemark.edges.map(({ node }) => (
-      <div key={node.id}>
+      <div key={node.id} className={componentName}>
         <BlogLink to={node.fields.slug}>
           <BlogTitle>{node.frontmatter.title}</BlogTitle>
         </BlogLink>
@@ -20,7 +23,7 @@ export default ({ data }) => (
           </span>
           <span>{node.timeToRead} MIN READ</span>
         </PrePost>
-        <p>{node.excerpt}</p>
+        <p className={`${componentName}-post-content`}>{node.excerpt}</p>
       </div>
     ))}
   </Layout>

@@ -1,0 +1,69 @@
+@import "../styles/theme.scss";
+@import "../styles/mixins/responsive.scss";
+
+$component-name: "post";
+
+.#{$component-name} {
+  width: 100%;
+
+  h4 {
+    font-family: $font-family-secondary;
+    font-size: $font-size-20;
+    margin-top: 40px;
+    text-decoration: underline;
+
+    &:before {
+      content: "## ";
+    }
+
+    @include tablet {
+      font-size: $font-size-20;
+      margin-top: 40px;
+    }
+
+    @include desktop {
+      font-size: $font-size-24;
+      margin-top: 60px;
+    }
+
+    @include long-desktop {
+      font-size: $font-size-24;
+      margin-top: 60px;
+    }
+  }
+
+  > p {
+    font-family: $font-family-tertiary;
+    font-size: $font-size-16;
+    line-height: 1.5;
+
+    @include tablet {
+      font-size: $font-size-18;
+    }
+
+    @include desktop {
+      font-size: $font-size-20;
+    }
+
+    @include long-desktop {
+      font-size: $font-size-24;
+    }
+  }
+
+  code {
+    font-size: $font-size-16;
+    line-height: 1.7;
+
+    @include tablet {
+      font-size: $font-size-16;
+    }
+
+    @include desktop {
+      font-size: $font-size-18;
+    }
+
+    @include long-desktop {
+      font-size: $font-size-20;
+    }
+  }
+}

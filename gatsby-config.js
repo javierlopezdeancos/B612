@@ -1,22 +1,16 @@
 const siteMetadata = {
-  // Update the following values to what you please
-  title: `Simple Blog`,
-  description: `Kick off your next, great Gatsby project with this simple starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-  author: `Simple`,
-  // Add your socials here
-  bio: `It is a long established fact that a reader will be distracted by the
-  readable content of a page when looking at its layout. The point of
-  using Lorem Ipsum is that it has a more-or-less normal distribution of
-  letters, as opposed to using 'Content here, content here', making it
-  look like readable English`,
+  title: `Roma no se conquistó en un story point`,
+  description: `.`,
+  author: `javierlopezdeancos.dev`,
+  bio: "Im Javier López de Ancos and I'm Software Engineer",
   socials: [
     {
       name: "Github",
-      url: "https://github.com/thecodemint/gatsby-starter-simple",
+      url: "https://github.com/javierlopezdeancos",
     },
     {
       name: "Linkedin",
-      url: "#",
+      url: "https://www.linkedin.com/in/javierlopezdeancos/",
     },
   ],
 }
@@ -50,14 +44,6 @@ const plugins = [
       theme_color: `#333`,
       display: `minimal-ui`,
       icon: `src/images/simple-icon.png`, // This path is relative to the root of the site.
-    },
-  },
-  {
-    resolve: `gatsby-plugin-disqus`,
-    options: {
-      // replace the shortname with your own
-      // how to get Disqus shortname https://help.disqus.com/en/articles/1717111-what-s-a-shortname
-      shortname: `simple-blog-7`,
     },
   },
   {
