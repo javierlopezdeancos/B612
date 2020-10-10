@@ -1,9 +1,7 @@
 {
-  "name": "gatsby-simple",
-  "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
-  "version": "0.1.0",
-  "author": "Collins Muriuki",
+  "name": "javierlopezdeancos.dev",
+  "version": "0.2.0",
+  "author": "Javier Lopez de Ancos",
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.7",
     "gatsby": "^2.20.12",
