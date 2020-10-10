@@ -83,6 +83,25 @@ const plugins = [
   },
   `gatsby-plugin-sass`,
   `gatsby-plugin-offline`,
+  {
+    resolve: `gatsby-plugin-prefetch-google-fonts`,
+    options: {
+      fonts: [
+        {
+          family: `Source Code Pro`,
+          variants: [`200`, `400`, `700`, `900`],
+        },
+        {
+          family: `Droid Sans`,
+          variants: [`200`, `400`, `700`],
+        },
+        {
+          family: `Space Mono`,
+          variants: [`200`, `400`, `700`, `900`],
+        },
+      ],
+    },
+  },
 ]
 
 module.exports = {
