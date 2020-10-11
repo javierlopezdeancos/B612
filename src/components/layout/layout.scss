@@ -43,11 +43,11 @@ body {
 
   a {
     color: $color-grey-800;
-    text-decoration: underline;
     cursor: pointer;
 
     &:hover {
       color: $color-grey-1000;
+      text-decoration: underline;
     }
   }
 
@@ -69,7 +69,6 @@ body {
       font-family: $font-family-secondary;
       font-size: $font-size-24;
       line-height: 1.5;
-      text-decoration: underline;
 
       &:before {
         content: "# ";
