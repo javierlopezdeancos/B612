@@ -49,6 +49,53 @@ $component-name: "post";
     }
   }
 
+  .pill {
+    font-family: $font-family-quaternary;
+    font-size: $font-size-20;
+
+    &:before,
+    &:after {
+      font-family: $font-family-tertiary;
+      font-size: $font-size-20;
+      color: $color-grey-200;
+    }
+
+    &:before {
+      content: 'fmt.Println("';
+    }
+
+    &:after {
+      content: '")';
+    }
+
+    @include tablet {
+      font-size: $font-size-38;
+
+      &:before,
+      &:after {
+        font-size: $font-size-38;
+      }
+    }
+
+    @include desktop {
+      font-size: $font-size-38;
+
+      &:before,
+      &:after {
+        font-size: $font-size-38;
+      }
+    }
+
+    @include long-desktop {
+      font-size: $font-size-38;
+
+      &:before,
+      &:after {
+        font-size: $font-size-38;
+      }
+    }
+  }
+
   code {
     font-size: $font-size-16;
     line-height: 1.7;
