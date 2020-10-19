@@ -23,7 +23,9 @@ export default ({ data }) => (
           </span>
           <span>{node.timeToRead} MIN READ</span>
         </PrePost>
-        <p className={`${componentName}-post-content`}>{node.excerpt}</p>
+        {node.excerpt && (
+          <p className={`${componentName}-post-content`}>{node.excerpt}</p>
+        )}
       </div>
     ))}
   </Layout>

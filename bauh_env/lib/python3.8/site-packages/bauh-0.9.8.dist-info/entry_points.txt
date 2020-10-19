@@ -1,0 +1,5 @@
+[console_scripts]
+bauh = bauh.app:main
+bauh-cli = bauh.cli.app:main
+bauh-tray = bauh.app:tray
+
