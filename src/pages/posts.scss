@@ -4,10 +4,12 @@
 $component-name: "posts";
 
 .#{$component-name} {
+  margin-bottom: 24px;
+
   h3 {
     font-family: $font-family-secondary;
     font-size: $font-size-24;
-    font-weight: $font-weight-600;
+    font-weight: $font-weight-200;
     line-height: 1.5;
     margin-bottom: 5px;
 
@@ -37,6 +39,7 @@ $component-name: "posts";
       font-family: $font-family-tertiary;
       font-size: $font-size-16;
       line-height: 1.5;
+      margin-bottom: 0;
 
       @include tablet {
         font-size: $font-size-18;

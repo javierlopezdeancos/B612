@@ -68,7 +68,7 @@ body {
     h2 {
       font-family: $font-family-secondary;
       font-size: $font-size-24;
-      font-weight: $font-weight-600;
+      font-weight: $font-weight-200;
       line-height: 1.5;
 
       &:before {
@@ -208,7 +208,6 @@ article h4 {
 }
 
 article p {
-  padding-bottom: 20px;
   letter-spacing: 0.4px;
 }
 
