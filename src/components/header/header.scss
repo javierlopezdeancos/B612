@@ -38,11 +38,11 @@ $component-name: "header";
       }
 
       @include desktop {
-        font-size: $font-size-38;
+        font-size: $font-size-28;
       }
 
       @include long-desktop {
-        font-size: $font-size-48;
+        font-size: $font-size-38;
       }
     }
   }

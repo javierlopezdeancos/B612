@@ -1,0 +1,56 @@
+@import "../../styles/theme.scss";
+@import "../../styles/mixins/responsive.scss";
+
+$component-name: "share";
+
+.#{$component-name} {
+  button {
+    padding: 0;
+    width: 30px;
+
+    &:hover {
+      background: none;
+      box-shadow: none;
+    }
+
+    &:focus {
+      border: none;
+      outline: none;
+    }
+
+    @include tablet {
+      width: 30px;
+    }
+
+    @include desktop {
+      width: 50px;
+    }
+
+    @include long-desktop {
+      width: 50px;
+    }
+  }
+
+  .css-6rti61 > svg,
+  .css-ghtq4v > svg {
+    width: 30px;
+    fill: $color-grey-300;
+
+    &:hover {
+      transition: all 0.5s ease-out;
+      fill: $color-grey-500;
+    }
+
+    @include tablet {
+      width: 30px;
+    }
+
+    @include desktop {
+      width: 50px;
+    }
+
+    @include long-desktop {
+      width: 50px;
+    }
+  }
+}

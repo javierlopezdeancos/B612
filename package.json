@@ -4,7 +4,8 @@
   "author": "Javier Lopez de Ancos",
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.7",
-    "gatsby": "^2.20.12",
+    "emotion": "^10.0.27",
+    "gatsby": "^2.24.84",
     "gatsby-image": "^2.3.1",
     "gatsby-plugin-google-analytics": "^2.2.2",
     "gatsby-plugin-manifest": "^2.3.3",
@@ -21,6 +22,7 @@
     "node-sass": "^4.13.1",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
+    "react-custom-share": "^0.4.8",
     "react-dom": "^16.12.0",
     "react-helmet": "^5.2.1",
     "styled-components": "^5.1.0"
