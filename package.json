@@ -1,6 +1,6 @@
 {
   "name": "javierlopezdeancos.dev",
-  "version": "0.4.2",
+  "version": "0.5.0",
   "author": "Javier Lopez de Ancos",
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.7",
