@@ -25,7 +25,7 @@ export default ({ pageContext: { frontmatter, html, id } }) => {
         dangerouslySetInnerHTML={{ __html: html }}
       />
       <Share
-        url="https://javierlopezdeancosblog.netlify.app"
+        url={window.location.href}
         button={ShareButtonIconOnly}
         buttons={[
           { network: "Twitter", icon: TwitterIcon },
