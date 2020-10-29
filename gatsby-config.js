@@ -58,7 +58,7 @@ const plugins = [
     resolve: `gatsby-plugin-google-analytics`,
     options: {
       // The property ID; the tracking code won't be generated without it
-      trackingId: "G-X4NY8L659D",
+      trackingId: "250321370",
       // Defines where to place the tracking script - `true` in the head and `false` in the body
       head: false,
       // Setting this parameter is optional
