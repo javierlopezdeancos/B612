@@ -50,6 +50,68 @@ $component-name: "post";
     }
   }
 
+  ol {
+    li {
+      font-size: $font-size-18;
+
+      @include tablet {
+        font-size: $font-size-18;
+      }
+
+      @include desktop {
+        font-size: $font-size-20;
+      }
+
+      @include long-desktop {
+        font-size: $font-size-24;
+      }
+
+      &::marker {
+        content: counter(list-item) " ˃_ ";
+        color: $color-grey-800;
+        font-weight: $font-weight-600;
+      }
+    }
+  }
+
+  ul {
+    li {
+      font-size: $font-size-18;
+
+      @include tablet {
+        font-size: $font-size-18;
+      }
+
+      @include desktop {
+        font-size: $font-size-20;
+      }
+
+      @include long-desktop {
+        font-size: $font-size-24;
+      }
+
+      &::marker {
+        content: "˃_ ";
+        color: $color-grey-800;
+        font-weight: $font-weight-600;
+      }
+    }
+  }
+
+  ul,
+  ol {
+    padding-left: 90px;
+
+    li {
+      margin-bottom: 20px;
+      line-height: 1.5;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+
   .pill {
     font-family: $font-family-quaternary;
     font-size: $font-size-20;
