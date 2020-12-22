@@ -84,7 +84,7 @@ const plugins = [
   `gatsby-plugin-sass`,
   `gatsby-plugin-offline`,
   {
-    resolve: `gatsby-plugin-prefetch-google-fonts`,
+    resolve: `@el7cosmos/gatsby-plugin-prefetch-google-fonts`,
     options: {
       fonts: [
         {
