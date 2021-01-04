@@ -46,7 +46,7 @@ $component-name: "post";
     }
 
     @include long-desktop {
-      font-size: $font-size-24;
+      font-size: $font-size-20;
     }
   }
 
@@ -63,7 +63,7 @@ $component-name: "post";
       }
 
       @include long-desktop {
-        font-size: $font-size-24;
+        font-size: $font-size-20;
       }
 
       &::marker {
@@ -87,7 +87,7 @@ $component-name: "post";
       }
 
       @include long-desktop {
-        font-size: $font-size-24;
+        font-size: $font-size-20;
       }
 
       &::marker {
@@ -100,7 +100,19 @@ $component-name: "post";
 
   ul,
   ol {
-    padding-left: 90px;
+    padding-left: 50px;
+
+    @include tablet {
+      padding-left: 60px;
+    }
+
+    @include desktop {
+      padding-left: 80px;
+    }
+
+    @include long-desktop {
+      padding-left: 90px;
+    }
 
     li {
       margin-bottom: 20px;
