@@ -5,4 +5,4 @@ author: 'javierlopezdeancos'
 description: 'Pero lo dice tan bien...'
 ---
 
-<img src="/images/posts/pero-lo-dice-tan-bien.png" alt="comic image" loading="lazy">
+<picture><img src="/images/posts/pero-lo-dice-tan-bien.png" alt="comic image" loading="lazy" /></picture>
