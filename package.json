@@ -1,6 +1,6 @@
 {
   "name": "javierlopezdeancos.dev",
-  "version": "0.6.4",
+  "version": "0.6.5",
   "author": "Javier Lopez de Ancos",
   "dependencies": {
     "@el7cosmos/gatsby-plugin-prefetch-google-fonts": "^2.0.3",
