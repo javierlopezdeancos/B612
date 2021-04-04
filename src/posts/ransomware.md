@@ -1,7 +1,7 @@
 ---
-title: "Ransomeware"
+title: "Ransomware"
 date: "2021-04-03"
 author: 'javierlopezdeancos'
-description: 'Pero lo dice tan bien...'
+description: 'Inféctame ahora'
 ---
-<picture><img src="/images/posts/ransomeware.jpg" alt="comic image" loading="lazy" /></picture>
+<picture><img src="/images/posts/ransomware.jpg" alt="comic image" loading="lazy" /></picture>
