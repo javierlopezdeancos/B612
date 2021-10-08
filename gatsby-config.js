@@ -92,8 +92,8 @@ const plugins = [
           variants: [`200`, `400`, `700`, `900`],
         },
         {
-          family: `Droid Sans`,
-          variants: [`200`, `400`, `700`],
+          family: `Nunito`,
+          variants: [`200`, `400`, `600`, `700`],
         },
         {
           family: `Space Mono`,
