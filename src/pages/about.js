@@ -1,11 +1,13 @@
+import "../components/divider/divider.scss"
+
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 
 import Layout from "../components/layout/layout"
 import SEO from "../components/seo/seo"
 
-import { Divider } from "../styled-components/index"
-import { SocialLinks } from "../styled-components/about"
+const dividerClass = "divider"
+const socialLinksClass = "social-links"
 
 const About = () => {
   const data = useStaticQuery(graphql`
@@ -22,24 +24,24 @@ const About = () => {
     }
   `)
   const { siteMetadata: { bio, socials }  } = data.site;
-  
+
   return (
     <Layout>
       <SEO title="About" description="About Me" />
       <p>{bio}</p>
-      <SocialLinks>
+      <div className={socialLinksClass}>
         {socials.map(social => {
           if (socials.length === 1) return <a href={social.url}>{social.name}</a>
           return (
             <div key={social.url}>
               <a href={social.url}>{social.name}</a>
               {
-                socials.lastIndexOf(social) === socials.length - 1 ? null : <Divider />
+                socials.lastIndexOf(social) === socials.length - 1 ? null : <div className={dividerClass}></div>
               }
             </div>
           )
         })}
-      </SocialLinks>
+      </div>
     </Layout>
   )
 }

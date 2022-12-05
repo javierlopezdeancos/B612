@@ -1,0 +1,11 @@
+@import "../../styles/theme.scss";
+@import "../../styles/mixins/responsive.scss";
+
+$component-name: "divider";
+
+.#{$component-name} {
+  border-left: 1px solid #333;
+  height: 20px;
+  display: inline;
+  margin: 0 10px;
+}

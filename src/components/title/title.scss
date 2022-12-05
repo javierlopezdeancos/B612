@@ -1,0 +1,8 @@
+@import "../../styles/theme.scss";
+@import "../../styles/mixins/responsive.scss";
+
+$component-name: "title";
+
+.#{$component-name} {
+  margin-bottom: 20px;
+}

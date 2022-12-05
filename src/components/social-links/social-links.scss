@@ -1,0 +1,10 @@
+@import "../../styles/theme.scss";
+@import "../../styles/mixins/responsive.scss";
+
+$component-name: "social-links";
+
+.#{$component-name} {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}

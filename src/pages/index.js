@@ -1,28 +1,31 @@
 import "./posts.scss"
-
-import { BlogLink, BlogTitle, PrePost } from "../styled-components/index"
+import "../templates/pre-post.scss"
+import "../components/link/link.scss"
 
 import Layout from "../components/layout/layout"
 import React from "react"
 import SEO from "../components/seo/seo"
-import { graphql } from "gatsby"
+import { graphql, Link } from "gatsby"
 
 const componentName = "posts"
+const linkClass = "link"
+const titleClass = "title"
+const prePostClass = "pre-post"
 
 export default ({ data }) => (
   <Layout>
     <SEO title="Home" />
     {data.allMarkdownRemark.edges.map(({ node }) => (
       <div key={node.id} className={componentName}>
-        <BlogLink to={node.fields.slug}>
-          <BlogTitle>{node.frontmatter.title}</BlogTitle>
-        </BlogLink>
-        <PrePost>
+        <Link className={linkClass} to={node.fields.slug}>
+          <h3 className={titleClass}>{node.frontmatter.title}</h3>
+        </Link>
+        <div className={prePostClass}>
           <span>
             {new Date(node.frontmatter.date).toDateString().toUpperCase()}
           </span>
           <span>{node.timeToRead} MIN READ</span>
-        </PrePost>
+        </div>
         {node.excerpt && (
           <p className={`${componentName}-post-content`}>{node.excerpt}</p>
         )}

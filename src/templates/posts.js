@@ -1,37 +1,28 @@
 import "./post.scss"
-
-import { MainBlogTitle, PrePost } from "../styled-components/index"
+import "./pre-post.scss"
 
 import Layout from "../components/layout/layout"
-import LinkedinIcon from "../components/icons/linkedin"
 import React from "react"
 import SEO from "../components/seo/seo"
-import Share from "../components/share"
-import { ShareButtonIconOnly } from "react-custom-share"
-import TwitterIcon from "../components/icons/twitter"
+import SocialNetworksShareButtons from "../components/social-networks-share-buttons"
 
 const componentName = "post"
+const titleClass = "title"
+const prePostName = "pre-post"
 
 export default ({ pageContext: { frontmatter, html, id } }) => {
   return (
     <Layout>
       <SEO title={frontmatter.title} description={frontmatter.description} />
-      <MainBlogTitle>{frontmatter.title}</MainBlogTitle>
-      <PrePost>
+      <h2 className={titleClass}>{frontmatter.title}</h2>
+      <div className={prePostName}>
         <time>{new Date(frontmatter.date).toDateString().toUpperCase()}</time>
-      </PrePost>
+      </div>
       <div
         className={componentName}
         dangerouslySetInnerHTML={{ __html: html }}
       />
-      <Share
-        url={typeof window !== 'undefined' ? window.location.href : ""}
-        button={ShareButtonIconOnly}
-        buttons={[
-          { network: "Twitter", icon: TwitterIcon },
-          { network: "Linkedin", icon: LinkedinIcon },
-        ]}
-      />
+      <SocialNetworksShareButtons />
     </Layout>
   )
 }

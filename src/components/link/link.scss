@@ -1,0 +1,9 @@
+@import "../../styles/theme.scss";
+@import "../../styles/mixins/responsive.scss";
+
+$component-name: "link";
+
+.#{$component-name} {
+  text-decoration: none;
+  color: #333;
+}
