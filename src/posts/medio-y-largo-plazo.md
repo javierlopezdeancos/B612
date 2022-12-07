@@ -1,6 +1,6 @@
 ---
 title: "Corto, medio y largo plazo"
-date: "2022-12-05"
+date: "2022-12-07"
 author: "javierlopezdeancos"
 description: "Visión estratégica es algo más complejo en donde intervienen muchas mas piezas, planificación, gestión y dosificación de personas y recursos."
 ---
