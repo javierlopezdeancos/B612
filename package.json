@@ -5,6 +5,7 @@
   "dependencies": {
     "@el7cosmos/gatsby-plugin-prefetch-google-fonts": "^2.0.3",
     "gatsby": "^5.2.0",
+    "gatsby-core-utils": "^4.2.0",
     "gatsby-image": "^3.11.0",
     "gatsby-plugin-google-analytics": "^5.2.0",
     "gatsby-plugin-manifest": "^5.2.0",
@@ -28,22 +29,19 @@
     "gh-pages": "^4.0.0",
     "prettier": "^2.8.0"
   },
-  "keywords": [
-    "gatsby"
-  ],
   "license": "MIT",
   "scripts": {
-    "build": "npx gatsby build",
-    "develop": "npx gatsby develop",
+    "build": "gatsby build",
+    "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
-    "serve": "npx gatsby serve",
-    "clean": "npx gatsby clean",
-    "deploy": "npx gatsby build --prefix-paths && gh-pages -d public",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "hhttps://github.com/javierlopezdeancos/B612Blog"
+    "url": "https://github.com/javierlopezdeancos/B612Blog"
   }
 }
