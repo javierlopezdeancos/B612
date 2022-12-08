@@ -53,7 +53,7 @@ const plugins = [
   },
   `gatsby-plugin-sass`,
   {
-    resolve: `@el7cosmos/gatsby-plugin-prefetch-google-fonts`,
+    resolve: `gatsby-plugin-prefetch-google-fonts`,
     options: {
       fonts: [
         {

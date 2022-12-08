@@ -3,10 +3,10 @@
   "version": "0.6.5",
   "author": "Javier Lopez de Ancos",
   "dependencies": {
-    "@el7cosmos/gatsby-plugin-prefetch-google-fonts": "^2.0.3",
     "gatsby": "^5.2.0",
     "gatsby-plugin-image": "^3.2.0",
     "gatsby-plugin-manifest": "^5.2.0",
+    "gatsby-plugin-prefetch-google-fonts": "^1.4.3",
     "gatsby-plugin-react-svg": "^3.3.0",
     "gatsby-plugin-sass": "^6.2.0",
     "gatsby-plugin-sharp": "^5.2.0",
