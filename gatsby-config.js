@@ -1,6 +1,6 @@
 const siteMetadata = {
   title: `Roma no se conquistó en un story point`,
-  description: `.`,
+  description: `The Javier Lopez de Ancos blog.`,
   author: `blog.javierlopezdeancos.dev`,
   bio: "Im Javier López de Ancos and I'm Software Engineer",
   socials: [
@@ -53,28 +53,19 @@ const plugins = [
   },
   `gatsby-plugin-sass`,
   {
-    resolve: `gatsby-plugin-prefetch-google-fonts`,
+    resolve: `gatsby-plugin-google-fonts`,
     options: {
       fonts: [
-        {
-          family: `Source Code Pro`,
-          variants: [`200`, `400`, `700`, `900`],
-        },
-        {
-          family: `Nunito`,
-          variants: [`200`, `400`, `600`, `700`],
-        },
-        {
-          family: `Space Mono`,
-          variants: [`200`, `400`, `700`, `900`],
-        },
+        `Source Code Pro\:200,400,700,900`,
+        `Nunito\:200,400,600,700`,
+        `Space Mono\:200,400,700,900`,
       ],
+      display: "swap",
     },
   },
 ]
 
 module.exports = {
   siteMetadata: siteMetadata,
-  pathPrefix: "/gatsby-starter-simple", // REMOVE IF NOT DEPLOYING TO GH-PAGES
   plugins: plugins,
 }

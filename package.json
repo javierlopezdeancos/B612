@@ -4,9 +4,9 @@
   "author": "Javier Lopez de Ancos",
   "dependencies": {
     "gatsby": "^5.2.0",
+    "gatsby-plugin-google-fonts": "^1.0.1",
     "gatsby-plugin-image": "^3.2.0",
     "gatsby-plugin-manifest": "^5.2.0",
-    "gatsby-plugin-prefetch-google-fonts": "^1.4.3",
     "gatsby-plugin-react-svg": "^3.3.0",
     "gatsby-plugin-sass": "^6.2.0",
     "gatsby-plugin-sharp": "^5.2.0",
@@ -23,7 +23,7 @@
   },
   "license": "MIT",
   "scripts": {
-    "build": "gatsby clean && gatsby build",
+    "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
