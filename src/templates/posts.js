@@ -9,7 +9,7 @@ const componentName = "post"
 const titleClass = "title"
 const prePostName = "pre-post"
 
-export default ({ pageContext: { frontmatter, html, id } }) => {
+const Posts = ({ pageContext: { frontmatter, html, id } }) => {
   return (
     <Layout>
       <h2 className={titleClass}>{frontmatter.title}</h2>
@@ -24,3 +24,5 @@ export default ({ pageContext: { frontmatter, html, id } }) => {
     </Layout>
   )
 }
+
+export default Posts

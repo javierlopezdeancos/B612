@@ -11,7 +11,7 @@ const linkClass = "link"
 const titleClass = "title"
 const prePostClass = "pre-post"
 
-export default ({ data }) => (
+const Home = ({ data }) => (
   <Layout>
     {data.allMarkdownRemark.edges.map(({ node }) => (
       <div key={node.id} className={componentName}>
@@ -54,3 +54,5 @@ export const query = graphql`
     }
   }
 `
+
+export default Home
