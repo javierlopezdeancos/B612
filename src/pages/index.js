@@ -4,7 +4,6 @@ import "../components/link/link.scss"
 
 import Layout from "../components/layout/layout"
 import React from "react"
-import SEO from "../components/seo/seo"
 import { graphql, Link } from "gatsby"
 
 const componentName = "posts"
@@ -14,7 +13,6 @@ const prePostClass = "pre-post"
 
 export default ({ data }) => (
   <Layout>
-    <SEO title="Home" />
     {data.allMarkdownRemark.edges.map(({ node }) => (
       <div key={node.id} className={componentName}>
         <Link className={linkClass} to={node.fields.slug}>
