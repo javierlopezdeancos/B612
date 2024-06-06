@@ -22,6 +22,9 @@
     "dev": "npx @11ty/eleventy --serve",
     "start": "npx @11ty/eleventy --serve --quiet"
   },
+  "engines": {
+    "node": "20.14.0"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/javierlopezdeancos/B612Blog"
