@@ -1,0 +1,18 @@
+<a
+  class="hggsw-logo hggs-flex hggs-flex--row-left-center hggs-flex--gap-small"
+  href="https://blog.javierlopezdeancos.dev"
+>
+  <eleventy-image alt="Una imagen de Javier López de Ancos" src="./img/me.jpg" />
+</a>
+
+<style webc>
+  .hggsw-logo {
+    text-decoration: unset;
+
+    & img {
+      width: var(--hggs-space-lg-default);
+      height: var(--hggs-space-lg-default);
+      border-radius: 50%;
+    }
+  }
+</style>

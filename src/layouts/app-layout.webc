@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<link webc:keep rel="stylesheet" href="/src/styles/higgsboson.min.css" />
+		<link webc:keep rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prism-theme-vars/base.css">
+		<link webc:keep rel="preconnect" href="https://fonts.googleapis.com">
+		<link webc:keep rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link webc:keep href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+		<link webc:keep href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+		<title>blog.javierlopezdeancos.dev</title>
+		<style webc:keep @html="this.getCSS(this.page?.url)"></style>
+		<script webc:keep @html="this.getJS(this.page?.url)"></script>
+	</head>
+	<body>
+		<div class="hggsw-app hggs-app" @html="this.content"></div>
+	</body>
+</html>
+
+<style webc>
+	.hggsw-app {
+    gap: var(--hggs-space-md-default);
+		padding-bottom: var(--hggs-space-sm-default);
+  }
+
+	.hggsw-app {
+		& .hggsw-header {
+			display: flex;
+			align-items: center;
+			flex-direction: row;
+			justify-content: center;
+		}
+
+		& .hggsw-main {
+			display: flex;
+			flex-direction: column;
+			align-items: start;
+			justify-content: start;
+		}
+	}
+
+	.hggsw-app {
+		font-family: 'Space Mono', monospace;
+
+		& .hggs-h1,
+		& .hggs-h2,
+		& .hggs-h3,
+		& .hggs-h4,
+		& .hggs-h5,
+		& .hggs-h6 {
+			font-family: 'Space Mono', monospace;
+			font-weight: 400;
+		}
+
+		& .hggs-h1 {
+			&:before {
+				content: '# ';
+			}
+		}
+
+		& .hggs-h2 {
+			&:before {
+				content: '## ';
+			}
+		}
+
+		& .hggs-h3 {
+			&:before {
+				content: '### ';
+			}
+		}
+
+		& .hggs-h4 {
+			&:before {
+				content: '#### ';
+			}
+		}
+
+		& .hggs-h5 {
+			&:before {
+				content: '##### ';
+			}
+		}
+
+		& .hggs-h6 {
+			&:before {
+				content: '###### ';
+			}
+		}
+
+		& .hggs-text {
+			font-family: "Source Code Pro", monospace;
+		}
+
+		& .hggs-link {
+			font-family: "Source Code Pro", monospace;
+			font-weight: 200;
+			text-decoration: none;
+			font-style: normal;
+
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+
+		& .hggs-list {
+			list-style-type: none;
+			padding-left: var(--hggs-space-default);
+
+			& .hggs-list-item {
+				margin-bottom: var(--hggs-space-md-default);
+
+				& a {
+					font-family: "Source Code Pro", monospace;
+					font-weight: 600;
+				}
+
+				& strong {
+					font-weight: 600;
+				}
+
+				&::marker {
+					content: '-->  ';
+					font-size: 16px;
+					font-weight: 200;
+					margin-top: 50px;
+				}
+
+				&:last-child {
+					margin-bottom: 0;
+				}
+			}
+		}
+
+		& .hggsw-pill {
+			&:before,
+			&:after {
+				color: var(--hggs-color-gray-006-default);
+			}
+
+			&:before {
+				content: 'fmt.Println("';
+			}
+
+			&:after {
+				content: '")';
+			}
+		}
+	}
+
+  @media (max-width: 1050px) {
+    .hggsw-app {
+      gap: var(--hggs-space-sm-default);
+
+			& .hggsw-header {
+				flex-direction: column;
+				margin-bottom: var(--hggs-space-md-default);
+			}
+    }
+  }
+</style>
+

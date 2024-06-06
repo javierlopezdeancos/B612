@@ -1,37 +1,31 @@
 {
-  "name": "javierlopezdeancos.dev",
+  "name": "blog.javierlopezdeancos.dev",
   "version": "0.6.5",
   "author": "Javier Lopez de Ancos",
-  "dependencies": {
-    "gatsby": "^5.2.0",
-    "gatsby-plugin-google-fonts": "^1.0.1",
-    "gatsby-plugin-image": "^3.2.0",
-    "gatsby-plugin-manifest": "^5.2.0",
-    "gatsby-plugin-react-svg": "^3.3.0",
-    "gatsby-plugin-sass": "^6.2.0",
-    "gatsby-plugin-sharp": "^5.2.0",
-    "gatsby-source-filesystem": "^5.2.0",
-    "gatsby-transformer-remark": "^6.2.0",
-    "gatsby-transformer-sharp": "^5.2.0",
-    "next-share": "^0.19.0",
-    "node-sass": "^8.0.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
-  },
+  "main": "index.js",
   "devDependencies": {
-    "prettier": "^2.8.1"
+    "@11ty/eleventy": "^2.0.1",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
+    "@11ty/eleventy-plugin-webc": "^0.11.1",
+    "@11ty/eleventy-img": "^4.0.2",
+    "@toycode/markdown-it-class": "^1.2.4",
+    "markdown-it": "^13.0.1",
+    "prettier": "^3.3.1"
   },
-  "license": "MIT",
+  "license": "GPL-3.0-only",
   "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
-    "start": "npm run develop",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "benchmark": "DEBUG=Eleventy:Benchmark* npx @11ty/eleventy",
+    "debug:start": "DEBUG=Eleventy* npx @11ty/eleventy --serve --quiet",
+    "build": "npx @11ty/eleventy",
+    "debug": "DEBUG=Eleventy* npx @11ty/eleventy",
+    "debug:dev": "DEBUG=Eleventy* npx @11ty/eleventy --serve",
+    "dev": "npx @11ty/eleventy --serve",
+    "start": "npx @11ty/eleventy --serve --quiet"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/javierlopezdeancos/B612Blog"
+  },
+  "dependencies": {
   }
 }

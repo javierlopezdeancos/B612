@@ -1,0 +1,26 @@
+<header class="hggsw-header">
+    <logo-component webc:nokeep></logo-component>
+</header>
+
+<style webc>
+  .hggsw-header {
+    width: 100%;
+    max-width: 2500px;
+    padding-left: calc(3.8 * var(--hggs-space-lg-default));
+    padding-right: calc(4 * var(--hggs-space-lg-default));
+  }
+
+  @media (max-width: 1800px) {
+    .hggsw-header {
+      padding-left: calc(2.8 * var(--hggs-space-lg-default));
+      padding-right: calc(3 * var(--hggs-space-lg-default));
+    }
+  }
+
+  @media (max-width: 1500px) {
+    .hggsw-header {
+      padding-left: calc(0.8 * var(--hggs-space-lg-default));
+      padding-right: calc(1 * var(--hggs-space-lg-default));
+    }
+  }
+</style>
