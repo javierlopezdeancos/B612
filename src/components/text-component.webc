@@ -1,0 +1,2 @@
+<p class="hggs-text"><slot>Fallback slot content</slot></p>
+

@@ -1,0 +1,46 @@
+---
+layout: app-layout.webc
+---
+<header-component webc:nokeep></header-component>
+<main class="hggsw-main">
+  <header class="hggsw-main-header" webc:if="title">
+    <h1 class="hggs-h1 hggs-title--unbalanced" @text="title"></h1>
+  </header>
+  <section class="hggsw-main-body" @html="this.content"></section>
+</main>
+<footer-component webc:nokeep></footer-component>
+
+<style webc>
+  .hggsw-main {
+    padding-left: calc(4 * var(--hggs-space-lg-default));
+    padding-right: calc(4 * var(--hggs-space-lg-default));
+    gap: var(--hggs-space-default);
+    max-width: 2500px;
+
+    & .hggsw-main-header {
+      & .hggs-h1 {
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+    }
+
+    &.hggsw-main-header,
+    &.hggsw-main-body {
+      width: 100%
+    }
+  }
+
+  @media (max-width: 1800px) {
+    .hggsw-main {
+      padding-left: calc(3 * var(--hggs-space-lg-default));
+      padding-right: calc(3 * var(--hggs-space-lg-default));
+    }
+  }
+
+  @media (max-width: 1500px) {
+    .hggsw-main {
+      padding-left: calc(1 * var(--hggs-space-lg-default));
+      padding-right: calc(1 * var(--hggs-space-lg-default));
+    }
+  }
+</style>
