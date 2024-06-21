@@ -1,7 +1,8 @@
 ---
-layout: main-layout.webc
+layout: blog-layout.webc
 ---
-<section class="hggsw-post-body hggs-flex hggs-flex--column-top-left" @html="this.content"></section>
+
+<section class="b612-post-body hggs-flex hggs-flex--column-top-left" @html="this.content"></section>
 
 <style webc>
 	:root {
@@ -112,16 +113,16 @@ layout: main-layout.webc
 		}
 	}
 
-	.hggsw-post-body pre {
+	.b612-post-body pre {
 		margin-top: var(--hggs-space-md-default);
 		margin-bottom: var(--hggs-space-md-default);
 	}
 
-	.hggsw-post-body .hggs-h3 {
+	.b612-post-body .hggs-h3 {
 		margin-top: 0;
 	}
 
-	.hggsw-post-body {
+	.b612-post-body {
 		& .hggs-text {
 			color: var(--hggs-color-gray-016-default);
 

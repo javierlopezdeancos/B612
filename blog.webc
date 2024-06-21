@@ -1,0 +1,13 @@
+---
+layout: blog-layout.webc
+title: Roma no se conquisto en un story point
+permalink: /blog.html
+---
+<blog-list-component :collections="collections" webc:nokeep></blog-list-component>
+
+<style webc>
+	.b612-blog {
+    width: 100%;z
+  }
+</style>
+

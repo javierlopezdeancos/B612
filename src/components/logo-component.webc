@@ -1,18 +1,25 @@
 <a
-  class="hggsw-logo hggs-flex hggs-flex--row-left-center hggs-flex--gap-small"
-  href="https://blog.javierlopezdeancos.dev"
+  class="b612-logo hggs-flex hggs-flex--row-left-center hggs-flex--gap-small"
+  href="./"
 >
-  <eleventy-image alt="Una imagen de Javier López de Ancos" src="./img/me.jpg" />
+  <image webc:is="eleventy-image" alt="Una imagen de Javier López de Ancos" src="./img/me.jpg" />
 </a>
 
 <style webc>
-  .hggsw-logo {
+  .b612-logo {
     text-decoration: unset;
 
     & img {
-      width: var(--hggs-space-lg-default);
-      height: var(--hggs-space-lg-default);
+      width: 100px;
+      height: 100px;
       border-radius: 50%;
+    }
+  }
+
+  @media (max-width: 660px) {
+    .b612-logo img {
+      width: 80px;
+      height: 80px;
     }
   }
 </style>

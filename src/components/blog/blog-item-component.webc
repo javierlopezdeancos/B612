@@ -1,4 +1,4 @@
-<li class="hggsw-posts-item hggs-list-item">
-  <slot name="hggsw-posts-item-header"></slot>
-  <slot name="hggsw-posts-item-summary"></slot>
+<li class="b612-posts-item hggs-list-item">
+  <slot name="b612-posts-item-header"></slot>
+  <slot name="b612-posts-item-summary"></slot>
 </li>

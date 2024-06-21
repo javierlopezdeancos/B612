@@ -1,19 +1,19 @@
-<ul class="hggsw-posts-list hggs-list">
+<ul class="b612-posts-list hggs-list">
   <blog-item-component webc:for="post of collections.post" webc:nokeep>
-    <header slot="hggsw-posts-item-header">
+    <header slot="b612-posts-item-header">
       <a
         class="hggs-link"
         :href="post.url"
         @text="post.data.title">
       </a>
       <span
-        class="hggsw-posts-item-date hggs-text hggs-text--small"
+        class="b612-posts-item-date hggs-text hggs-text--small"
         @text="niceDate(post.data.date)">
       </span>
     </header>
-    <section slot="hggsw-posts-item-summary">
+    <section slot="b612-posts-item-summary">
       <p
-        class="hggsw-posts-item-summary hggs-text hggs-text--small"
+        class="b612-posts-item-summary hggs-text hggs-text--small"
         @text="post.data.summary">
       </p>
     </section>
@@ -21,18 +21,18 @@
 </ul>
 
 <style webc>
-  .hggsw-posts-item  {
+  .b612-posts-item  {
     & .hggs-link {
       font-weight: 400;
     }
 
-    & .hggsw-posts-item-date {
+    & .b612-posts-item-date {
       font-size: var(--hggs-font-size-2xs-default);
       color: var(--hggs-color-gray-013-default);
       margin-left: var(--hggs-space-default);
     }
 
-    & .hggsw-posts-item-summary {
+    & .b612-posts-item-summary {
       color: var(--hggs-color-gray-016-default);
       margin-top: var(--hggs-space-xs-default);
     }

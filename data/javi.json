@@ -1,0 +1,1362 @@
+{
+  "profile": {
+    "name": "Javier",
+    "surnames": "López de Ancos",
+    "title": "Senior Software Engineer",
+    "contact": {
+      "publicProfiles": [
+        {
+          "type": "personalWebsite",
+          "URL": "https://javierlopezdeancos.dev",
+          "description": "Personal website",
+          "name": "website"
+        },
+        {
+          "type": "personalWebsite",
+          "URL": "https://blog.javierlopezdeancos.dev",
+          "description": "Personal blog",
+          "name": "blog"
+        },
+        {
+          "URL": "https://www.linkedin.com/in/javierlopezdeancos/",
+          "type": "socialNetwork",
+          "name": "linkedin",
+          "description": "LinkedIn profile"
+        },
+        {
+          "URL": "https://github.com/javierlopezdeancos",
+          "type": "CodeRepository",
+          "description": "Github profile",
+          "name": "github"
+        },
+        {
+          "URL": "https://codeberg.org/javierlopezdeancos",
+          "type": "CodeRepository",
+          "description": "Codeberg profile",
+          "name": "codeberg"
+        },
+        {
+          "URL": "https://mastodon.social/@javierlopezdeancos",
+          "type": "socialNetwork",
+          "name": "mastodon",
+          "description": "Mastodon profile"
+        },
+        {
+          "URL": "https://open.spotify.com/user/vagabundo",
+          "type": "musicNetwork",
+          "name": "spotify",
+          "description": "Spotify profile"
+        }
+      ],
+      "contactMails": ["javierlopezdeancos@outlook.com"]
+    },
+    "description": "Hi 👋, \n\nI'm Javier,  I'm 46 years old and I'm from Toledo but I live in Madrid from 3 year ago. \n\nI have around 15 years of experience in web development.",
+    "avatar": {
+      "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/04/13/b5254609-20ce-4072-b399-c5a381aee3b4_1645874611216.jpeg",
+      "alt": "1645874611216.jpeg"
+    },
+    "location": {
+      "notes": "Autocompleted using Google Maps API (id: ChIJgTwKgJcpQg0RaSKMYcHeNsQ)",
+      "country": "España",
+      "region": "Comunidad de Madrid",
+      "municipality": "Madrid"
+    }
+  },
+  "interestingFacts": [
+    {
+      "topic": "Facilitator of a local Google developer group GDG in Toledo",
+      "fact": "Facilitator of a local **Google developer group community** in my hometown, Toledo, promoting the interaction of local talent in a city where technology is still a very rough issue.\n"
+    },
+    {
+      "topic": "Winner of \"Go App Toledo\" in 2016",
+      "fact": "Last December 23, 2016 I won the contest \"Go App Toledo\",  that \n was organized by **Google España** and **apps4citizens**.\n\n[Noticia en el periódico](https://www.elperiodico.com/es/apps-para-el-ciudadano-comprometido/20161230/eagle-gestion-publica-de-codigo-abierto-5718435)\n\nTake a look at the [\"Eagle\" prototype](https://marvelapp.com/prototype/1i7j8b5/screen/17749599).\n"
+    }
+  ],
+  "experience": {
+    "jobs": [
+      {
+        "organization": {
+          "name": "Docker Inc",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/24/05/07/0dc7891e-8d2e-48e1-9dc3-3ce5fc9d250f_docker-logo-blue.png",
+            "alt": "docker-logo-blue.png"
+          },
+          "URL": "https://www.docker.com"
+        },
+        "roles": [
+          {
+            "name": "Senior Software Engineer",
+            "startDate": "2023-12-01",
+            "challenges": [
+              {
+                "description": "- Help to Core Services in Platform\n- Assist with Testcontainers Cloud frontend maintenance\n- Support Core Experiences and Projects teams."
+              }
+            ],
+            "competences": [
+              {
+                "name": "Docker",
+                "type": "technology"
+              },
+              {
+                "name": "MaterialUI",
+                "type": "technology"
+              },
+              {
+                "name": "NextJS",
+                "type": "technology"
+              },
+              {
+                "name": "NodeJS",
+                "type": "technology"
+              },
+              {
+                "name": "React",
+                "type": "technology"
+              },
+              {
+                "name": "Tailwind",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "AtomicJar",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/24/05/07/a5355b44-0691-4147-928b-532243638855_captura-de-pantalla-.png",
+            "alt": "Captura de pantalla 2024-05-07 a las 10.17.37.png"
+          },
+          "URL": "https://www.atomicjar.com/"
+        },
+        "roles": [
+          {
+            "name": "Senior Frontend Engineer",
+            "startDate": "2023-03-01",
+            "finishDate": "2023-12-01",
+            "challenges": [
+              {
+                "description": "- Help to get Testcontainers Cloud to production and implement the dashboard redesign for the Testcontainers Cloud dashboard implementing from scratch an internal design system.\n- Help users to track the container's life cycle that our users build and run on the testcontainers cloud platform."
+              }
+            ],
+            "competences": [
+              {
+                "name": "CSS",
+                "type": "technology"
+              },
+              {
+                "name": "Docker",
+                "type": "technology"
+              },
+              {
+                "name": "JavaScript",
+                "type": "technology"
+              },
+              {
+                "name": "NextJS",
+                "type": "technology"
+              },
+              {
+                "name": "NodeJS",
+                "type": "technology"
+              },
+              {
+                "name": "React",
+                "type": "technology"
+              },
+              {
+                "name": "Tailwind",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "Wayflyer",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/24/05/07/a2900697-20eb-43e7-b89e-bc0e9fb8c61c_wayflyer-logo-v2.svg",
+            "alt": "wayflyer-logo-v2.svg"
+          },
+          "URL": "https://www.wayflyer.com/"
+        },
+        "roles": [
+          {
+            "name": "Sernior Forntend Engineer",
+            "startDate": "2022-07-01",
+            "finishDate": "2022-12-01",
+            "challenges": [
+              {
+                "description": "Sernior Forntend Engineer"
+              }
+            ],
+            "competences": [
+              {
+                "name": "JavaScript",
+                "type": "technology"
+              },
+              {
+                "name": "React",
+                "type": "technology"
+              },
+              {
+                "name": "Storybook",
+                "type": "technology"
+              },
+              {
+                "name": "Styled Components",
+                "type": "technology"
+              },
+              {
+                "name": "TestingLibrary",
+                "type": "technology"
+              },
+              {
+                "name": "TypeScript",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "Zscaler",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/25/eeabe67d-a846-446e-b41c-bbc67b355839_1647979396680.jpeg",
+            "alt": "1647979396680.jpeg"
+          },
+          "URL": "https://www.zscaler.com"
+        },
+        "roles": [
+          {
+            "name": "Software Engineer",
+            "startDate": "2022-01-01",
+            "finishDate": "2022-07-01",
+            "challenges": [
+              {
+                "description": "* Writing a new Cloud Isolation Browser product to Zscaler\n\n* Write 2 microservices client/server with domain event communication in Client (Preact/Typescript) with Server (Express/Nodejs/Typescript/Chrome APIS).\n\n* Documentation of the chosen technical decisions in proper ADRs, the parts built, the recommended methodologies and processes.\n\n* High use of Dockerized containers orchestrated with kubernetes.\n"
+              }
+            ],
+            "competences": [
+              {
+                "name": "Docker",
+                "type": "technology"
+              },
+              {
+                "name": "Express",
+                "type": "technology"
+              },
+              {
+                "name": "Golang",
+                "type": "technology"
+              },
+              {
+                "name": "Jest",
+                "type": "technology"
+              },
+              {
+                "name": "Kubernetes",
+                "type": "technology"
+              },
+              {
+                "name": "NodeJS",
+                "type": "technology"
+              },
+              {
+                "name": "Preact",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "Zartis",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/25/b337087d-229c-48e7-a3b1-03492a9de395_1647428819555.jpeg",
+            "alt": "1647428819555.jpeg"
+          },
+          "URL": "https://www.zartis.com"
+        },
+        "roles": [
+          {
+            "name": "Software Engineer",
+            "startDate": "2018-01-01",
+            "finishDate": "2021-12-01",
+            "challenges": [
+              {
+                "description": "- Technology Modernization for the App Front Layer for Vizor\n   - Definition and implementation of themeable component layer for the adoption of a design system.\n   - Definition of roadmaps and milestones for the release of consumable components for implementation.\n   - Documentation of the chosen technical decisions, the parts built, the recommended methodologies and processes.\n   - Markdown docs on each project and the Azure devops wiki.\n- Rewriting of an application to measure audiences of 605tv\n   - Creation of a library of themeable components from scratch for consumption by the different teams in different applications.\n   - Creation of server to provide different domain data applications through a REST API.\n- Development of electron application for Vortic Art.\nImplementation of an electron application for the management of art galleries.\n- Technical team leader for the calendar domain in Valant in its application for the management of medical and health centers. Implementation and application of features in the calendar domain\n    - Definition of business tasks at a low level\n    - Creation of roadmaps and milestones for the delivery of the product phases.\nImprovement of the consistency in the development experience of corporate frontend tools\n    - Creation of corporate CLI for generation and management of new projects and their tools with Nodejs and Webpack 4x.\n"
+              }
+            ],
+            "competences": [
+              {
+                "name": "Angular2+",
+                "type": "technology"
+              },
+              {
+                "name": "Cypress",
+                "type": "technology"
+              },
+              {
+                "name": "Docker",
+                "type": "technology"
+              },
+              {
+                "name": "Electron",
+                "type": "technology"
+              },
+              {
+                "name": "Express",
+                "type": "technology"
+              },
+              {
+                "name": "JavaScript",
+                "type": "technology"
+              },
+              {
+                "name": "Jest",
+                "type": "technology"
+              },
+              {
+                "name": "Less CSS",
+                "type": "technology"
+              },
+              {
+                "name": "MaterialUI",
+                "type": "technology"
+              },
+              {
+                "name": "MongoDB",
+                "type": "technology"
+              },
+              {
+                "name": "Mongoose",
+                "type": "technology"
+              },
+              {
+                "name": "NodeJS",
+                "type": "technology"
+              },
+              {
+                "name": "PostCSS",
+                "type": "technology"
+              },
+              {
+                "name": "React",
+                "type": "technology"
+              },
+              {
+                "name": "React Native",
+                "type": "technology"
+              },
+              {
+                "name": "Redux",
+                "type": "technology"
+              },
+              {
+                "name": "RxJS",
+                "type": "technology"
+              },
+              {
+                "name": "Sass",
+                "type": "technology"
+              },
+              {
+                "name": "Storybook",
+                "type": "technology"
+              },
+              {
+                "name": "TestingLibrary",
+                "type": "technology"
+              },
+              {
+                "name": "TypeScript",
+                "type": "technology"
+              },
+              {
+                "name": "Webpack",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "Packlink",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/25/ea921a71-4a38-48a5-9e5c-8a30b9d18e5e_1581078899600.jpeg",
+            "alt": "1581078899600.jpeg"
+          },
+          "URL": "https://www.packlink.es"
+        },
+        "roles": [
+          {
+            "name": "Frontend Developer",
+            "startDate": "2015-03-01",
+            "finishDate": "2016-12-01",
+            "challenges": [
+              {
+                "description": "* Design, conceptualization and new architecture to consume customizable styles by themes to all Packlink applications and their whitelabels products as Ebay.\n\n* Architecture definition to style components.\n\n* Conventions documentations, patterns and styles componentization guides.\n\n* Refactoring to React all Packlink Pro app.\n\n"
+              }
+            ],
+            "competences": [
+              {
+                "name": "AngularJS",
+                "type": "technology"
+              },
+              {
+                "name": "Gatsby",
+                "type": "technology"
+              },
+              {
+                "name": "JavaScript",
+                "type": "technology"
+              },
+              {
+                "name": "Jest",
+                "type": "technology"
+              },
+              {
+                "name": "React",
+                "type": "technology"
+              },
+              {
+                "name": "Sass",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "Bravofly Rumbo Group ",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/25/6a1ad738-8674-4bf3-a76a-f1ac67898d70_1519894031669.jpeg",
+            "alt": "1519894031669.jpeg"
+          },
+          "URL": "https://www.rumbo.com"
+        },
+        "roles": [
+          {
+            "name": "Front-End Developer",
+            "startDate": "2013-05-01",
+            "finishDate": "2015-05-01",
+            "challenges": [
+              {
+                "description": "* Architecture design for the frontend in the Seo flights business line\n\n* Use of event bus, asynchronous patterns of data consumption, design of different pipelines.\n\n* Design and implementation of a new SEO application for the flight domain.\n\n* Implementation of necessary pieces for the frontend in the flight SEO business line.\n\n* Vanilla Javascript applying SOLID concepts with TDD methodology.\n\n* Vanilla Javascript, Mocha, Chai.\n\n* Creation of a project generator template that already had all the tools predefined to start delivering business value by applying TDD.\n\n* Yeoman, google closure-library.\n"
+              }
+            ],
+            "competences": [
+              {
+                "name": "Grunt",
+                "type": "technology"
+              },
+              {
+                "name": "Gulp.JS",
+                "type": "technology"
+              },
+              {
+                "name": "Mocha",
+                "type": "technology"
+              },
+              {
+                "name": "SinonJS",
+                "type": "technology"
+              },
+              {
+                "name": "chai",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "At Sistemas",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/25/b422667b-cfce-451b-883e-563195d08220_1646817241810.jpeg",
+            "alt": "1646817241810.jpeg"
+          },
+          "URL": "https://www.atsistemas.com/es"
+        },
+        "roles": [
+          {
+            "name": "Frontend Developer",
+            "startDate": "2012-08-01",
+            "finishDate": "2013-05-01",
+            "challenges": [
+              {
+                "description": "* Implementation of various features for the Bankinter group app\n\n* Implementation of features for mobile app using apache cordova framework.\n\n* Creation of internal framework for Smartv\n\n* Design and implementation of plugable architecture for internal framework of \n\n* SmartTv applications\n"
+              }
+            ],
+            "competences": [
+              {
+                "name": "CoffeeScript",
+                "type": "technology"
+              },
+              {
+                "name": "Cordova",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "SNGULAR",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/25/4b6b38aa-b1f6-48bb-8adc-aa37e437ed9d_1646729329252.jpeg",
+            "alt": "1646729329252.jpeg"
+          },
+          "URL": "https://www.sngular.com"
+        },
+        "roles": [
+          {
+            "name": " Frontend Developer",
+            "startDate": "2012-01-01",
+            "finishDate": "2012-07-01",
+            "challenges": [
+              {
+                "description": "* Implementation of several features for the BBVA group with SPA app, one of the first to adopt this pattern in the Spanish business circuit.\n\n*Implementation of features for the card business line and global position with Backbone, jQuery, Sass.\n"
+              }
+            ],
+            "competences": [
+              {
+                "name": "Backbone",
+                "type": "technology"
+              },
+              {
+                "name": "Sass",
+                "type": "technology"
+              },
+              {
+                "name": "jQuery",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "Freelance",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/24/05/07/26c58809-3f9c-4c14-83ea-910f177774ab_me.jpg",
+            "alt": "me.jpg"
+          },
+          "URL": "https://javierlopezdeancos.dev"
+        },
+        "roles": [
+          {
+            "name": "Front-End Developer",
+            "startDate": "2010-05-01",
+            "finishDate": "2011-12-01",
+            "challenges": [
+              {
+                "description": "* Interface design and Implementation of features for web pages of various clients using jQuery, Less, Php and Wordpress.\n\n"
+              }
+            ],
+            "competences": [
+              {
+                "name": "Less CSS",
+                "type": "technology"
+              },
+              {
+                "name": "PHP",
+                "type": "technology"
+              },
+              {
+                "name": "WordPress",
+                "type": "technology"
+              },
+              {
+                "name": "jQuery",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "SMS Europa /Junta de Comunidades de Castilla-La Mancha",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/25/e9e2134d-1749-40b5-9f1e-5d1dcedc67fa_1519856482244.jpeg",
+            "alt": "1519856482244.jpeg"
+          },
+          "URL": "https://sms-europa.com/es/"
+        },
+        "roles": [
+          {
+            "name": "Frontend Developer and UI Designer",
+            "startDate": "2010-05-01",
+            "finishDate": "2011-12-01",
+            "challenges": [
+              {
+                "description": "* Implementation of features for client web pages Castilla-La Mancha Community Council.\n\n* Interface design and implementation of various features web pages of the Castilla-La Mancha Community Board.\njQuery, Less, Php and Drupal.\n"
+              }
+            ],
+            "competences": [
+              {
+                "name": "Drupal",
+                "type": "technology"
+              },
+              {
+                "name": "Less CSS",
+                "type": "technology"
+              },
+              {
+                "name": "PHP",
+                "type": "technology"
+              },
+              {
+                "name": "jQuery",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "details": {
+          "name": "React Against The Machine",
+          "description": "An declarative state machine to react.",
+          "URL": "https://github.com/javierlopezdeancos/react-against-the-machine",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/25/dbe2dfc4-fb7c-40e8-a5be-15858ce8f905_logo_small.jpeg",
+            "alt": "logo_small.jpeg"
+          }
+        },
+        "type": "sideProject",
+        "roles": [
+          {
+            "name": "Developer",
+            "startDate": "2021-11-01",
+            "competences": [
+              {
+                "name": "Jest",
+                "type": "technology"
+              },
+              {
+                "name": "React",
+                "type": "technology"
+              },
+              {
+                "name": "TestingLibrary",
+                "type": "technology"
+              },
+              {
+                "name": "TypeScript",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "details": {
+          "name": "Pedigri",
+          "description": "Get [the one and only](https://www.youtube.com/watch?v=ZvMsp7s78Do) unique string to your component depending on their component tree channel",
+          "URL": "https://github.com/javierlopezdeancos/pedigri",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/25/a09a0bb9-c86a-4ee2-b06d-531bb562100e_pedigri.png",
+            "alt": "pedigri.png"
+          }
+        },
+        "type": "sideProject",
+        "roles": [
+          {
+            "name": "Developer",
+            "startDate": "2021-08-01",
+            "competences": [
+              {
+                "name": "Jest",
+                "type": "technology"
+              },
+              {
+                "name": "TypeScript",
+                "type": "technology"
+              }
+            ],
+            "finishDate": "2021-09-01"
+          }
+        ]
+      },
+      {
+        "details": {
+          "name": "La Guagua",
+          "description": "Another typescript bus event.",
+          "URL": "https://github.com/javierlopezdeancos/laguagua",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/25/0bb2aa16-db65-4778-81d5-552b949b1f1d_logo.jpeg",
+            "alt": "logo.jpeg"
+          }
+        },
+        "type": "sideProject",
+        "roles": [
+          {
+            "name": "Developer",
+            "startDate": "2021-08-01",
+            "competences": [
+              {
+                "name": "TypeScript",
+                "type": "technology"
+              }
+            ],
+            "finishDate": "2021-10-01"
+          }
+        ]
+      },
+      {
+        "details": {
+          "name": "Fisima",
+          "description": "Yet another finite state machine implemented in typescript.",
+          "URL": "https://github.com/Devnilson/fisima",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/25/e6bb054f-1ced-4d39-809c-fe26a6b48b5a_logoyellow400.jpeg",
+            "alt": "logoYellow400.jpeg"
+          }
+        },
+        "type": "sideProject",
+        "roles": [
+          {
+            "name": "Developer",
+            "startDate": "2021-03-01",
+            "competences": [
+              {
+                "name": "Jest",
+                "type": "technology"
+              },
+              {
+                "name": "TypeScript",
+                "type": "technology"
+              }
+            ],
+            "finishDate": "2021-04-01"
+          }
+        ]
+      },
+      {
+        "details": {
+          "name": "higgsboson",
+          "description": "Higgsboson class components is a set of classes to style core native components.",
+          "URL": "https://github.com/javierlopezdeancos/higgsboson",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/07/26/68dfb7f2-7b6f-4a25-bdae-7343057a5605_logo-light.png",
+            "alt": "logo-light.png"
+          }
+        },
+        "type": "sideProject",
+        "roles": [
+          {
+            "name": "Developer",
+            "startDate": "2021-02-01",
+            "competences": [
+              {
+                "name": "CSS",
+                "type": "technology"
+              },
+              {
+                "name": "HTML",
+                "type": "technology"
+              },
+              {
+                "name": "PostCSS",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "publicArtifacts": [
+      {
+        "details": {
+          "name": "What I learn implementing design systems",
+          "description": "What I learn implementing design systems",
+          "URL": "https://docs.google.com/presentation/d/1V99aSOYESzUE7wm71hwJzguP3GB__zVv9E_SOXNMVNw/edit?usp=share_link",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/24/05/30/bf3bdb4f-fa58-4737-a718-df065a18e500_captura-de-pantalla-.png",
+            "alt": "Captura de pantalla 2024-05-30 a las 12.10.15.png"
+          }
+        },
+        "type": "talk",
+        "publishingDate": "2024-02-01",
+        "tags": ["Talk"],
+        "relatedCompetences": [
+          {
+            "name": "React",
+            "type": "technology"
+          }
+        ]
+      },
+      {
+        "details": {
+          "name": "Doesn't have risk sexual relationships with Typescript",
+          "description": "You are tried with your typescript experience? That could do typescript for us? When do should use it?\n",
+          "URL": "https://gdgtoledo.github.io/web/meetups/2020-02-27-lightning-talks-first-edition/",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/25/bbe16bfd-3e5f-4aad-8399-1a0b14d87b0f_captura-de-pantalla-.png",
+            "alt": "Captura de pantalla 2022-03-25 a las 20.18.11.png"
+          }
+        },
+        "type": "talk",
+        "publishingDate": "2020-02-01",
+        "tags": ["GDG"],
+        "relatedCompetences": [
+          {
+            "name": "TypeScript",
+            "type": "technology"
+          }
+        ]
+      },
+      {
+        "details": {
+          "name": "I need a CLI, Should I write it in Go or Node?",
+          "description": "What it is a CLI, what use we should do it. We look how implementent one of them in a simple way with 2 different languages very commons to write this kind of tools, Nodejs and Golang.\n",
+          "URL": "https://gdgtoledo.github.io/web/meetups/2019-02-28-necesito-una-cli-la-escribo-en-node-o-en-go/",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/25/76eb77a7-5e3f-48d2-9867-efe57d9b9cea_captura-de-pantalla-.png",
+            "alt": "Captura de pantalla 2022-03-25 a las 20.14.01.png"
+          }
+        },
+        "type": "talk",
+        "publishingDate": "2019-02-01",
+        "tags": ["GDG"],
+        "relatedCompetences": [
+          {
+            "name": "Golang",
+            "type": "technology"
+          },
+          {
+            "name": "NodeJS",
+            "type": "technology"
+          }
+        ]
+      },
+      {
+        "details": {
+          "name": "Jekyll, Don't build complex than is easy",
+          "description": "Welcome to the static generators era. We will see the most famous, jekyll with him use cases. We will see him instalation, file system, template system liquid, collections, permanlinks, build and deploy.",
+          "URL": "https://gdgtoledo.github.io/web/meetups/2017-10-26-jekyll-no-comliques-lo-que-es-sencillo/",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/25/3aa65073-285a-4a0b-8dba-bdf6731fe3a0_captura-de-pantalla-.png",
+            "alt": "Captura de pantalla 2022-03-25 a las 20.13.01.png"
+          }
+        },
+        "type": "talk",
+        "publishingDate": "2017-10-01",
+        "tags": ["GDG"],
+        "relatedCompetences": [
+          {
+            "name": "Jekyll",
+            "type": "technology"
+          }
+        ]
+      },
+      {
+        "details": {
+          "name": "Winner of \"Go App Toledo\" in 2016",
+          "description": "Last December 23, 2016 I won the contest \"Go App Toledo\",  that \n was organized by **Google España** and **apps4citizens**.\n\n[Noticial en el periodico](https://www.elperiodico.com/es/apps-para-el-ciudadano-comprometido/20161230/eagle-gestion-publica-de-codigo-abierto-5718435)\n\nTake a look at the [\"Eagle\" prototype](https://marvelapp.com/prototype/1i7j8b5/screen/17749599).\n",
+          "URL": "https://marvelapp.com/prototype/1i7j8b5/screen/17749599",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/25/42e49c3f-482c-4dd1-97ab-4a4f560cce64_captura-de-pantalla-.png",
+            "alt": "Captura de pantalla 2022-03-25 a las 17.56.13.png"
+          }
+        },
+        "type": "achievement",
+        "publishingDate": "2016-12-01",
+        "tags": ["Eagle"],
+        "relatedCompetences": [
+          {
+            "name": "Sketch",
+            "type": "technology"
+          }
+        ]
+      },
+      {
+        "details": {
+          "name": "Complete flow testing in Javascript",
+          "description": "Tlask to explain a complete success case buidldin a new dev process to Rumbo Bravofly Group focused on TDD and quality gates.",
+          "URL": "http://slides.com/javierland/completejavascriptflow/fullscreen#/1",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/25/7b3cbf6d-5e49-46ea-b775-c639fc3e026a_captura-de-pantalla-.png",
+            "alt": "Captura de pantalla 2022-03-25 a las 20.26.32.png"
+          }
+        },
+        "type": "talk",
+        "publishingDate": "2015-09-01",
+        "tags": ["GDG"],
+        "relatedCompetences": [
+          {
+            "name": "Grunt",
+            "type": "technology"
+          },
+          {
+            "name": "JavaScript",
+            "type": "technology"
+          },
+          {
+            "name": "Mocha",
+            "type": "technology"
+          },
+          {
+            "name": "chai",
+            "type": "technology"
+          }
+        ]
+      },
+      {
+        "details": {
+          "name": "A deer in my living room ",
+          "description": "A post published into taleto it blog",
+          "URL": "https://blog.talentoit.org/un-ciervo-en-un-salon",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/25/02eb5903-06a4-421c-ad71-fd23e06148aa_captura-de-pantalla-.png",
+            "alt": "Captura de pantalla 2022-03-25 a las 20.23.16.png"
+          }
+        },
+        "type": "post",
+        "publishingDate": "2014-10-01",
+        "tags": ["Post"]
+      },
+      {
+        "details": {
+          "name": "Developments based on MVC in Javascript",
+          "description": "Developments based on MVC in Javascript",
+          "URL": "https://www.youtube.com/watch?v=XcNYRpb84vI",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/25/ab5c634a-a70b-4cb9-98f6-5adb4c016833_captura-de-pantalla-.png",
+            "alt": "Captura de pantalla 2022-03-25 a las 20.31.47.png"
+          }
+        },
+        "type": "video",
+        "publishingDate": "2014-06-01",
+        "tags": ["Talk"],
+        "relatedCompetences": [
+          {
+            "name": "JavaScript",
+            "type": "technology"
+          },
+          {
+            "name": "MVC",
+            "type": "technology"
+          }
+        ]
+      }
+    ]
+  },
+  "knowledge": {
+    "languages": [
+      {
+        "name": "EN",
+        "fullName": "Inglés",
+        "level": "Limited working proficiency"
+      },
+      {
+        "name": "ES",
+        "fullName": "Español",
+        "level": "Limited working proficiency"
+      }
+    ],
+    "hardSkills": [
+      {
+        "skill": {
+          "name": "Angular2+",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Backbone",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Bitbucket",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "CSS",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Drupal",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Enzyme",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Figma",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Gatsby",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Git",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "GitLab",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Go",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Golang",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Grunt",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Gulp.JS",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "HTML",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Jasmine",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "JavaScript",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Jekyll",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Jest",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Less CSS",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "LitElement",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Magento",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Mocha",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "MongoDB",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "MySQL",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "NPM",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "NodeJS",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "PHP",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "PostCSS",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "React",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Redux",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "RxJS",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "SQL",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Sass",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "SinonJS",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Sketch",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "TestingLibrary",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "TypeScript",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "VanillaJS",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Visual Studio Code",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "WebComponents",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Webpack",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "WordPress",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Yarn",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "jQuery",
+          "type": "technology"
+        }
+      }
+    ],
+    "studies": [
+      {
+        "studyType": "officialDegree",
+        "degreeAchieved": true,
+        "name": "Bachelor’s Degree in Electronic Industrial Engineering.",
+        "startDate": "1996-10-01",
+        "institution": {
+          "name": "Technical University of Madrid",
+          "description": "* Technical University of Madrid (2002)\n     Bachelor’s Degree in Electronic Industrial Engineering.\n",
+          "URL": "https://www.upm.es",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/25/13d5d203-321a-4d5d-9bc1-afae0e2602c5_institucional.png",
+            "alt": "institucional.png"
+          }
+        },
+        "finishDate": "2002-02-01"
+      },
+      {
+        "studyType": "officialDegree",
+        "degreeAchieved": true,
+        "name": "Degree in Advertising and Graphic Design.",
+        "startDate": "2006-10-01",
+        "institution": {
+          "name": "Toledo School of Fine Arts",
+          "description": "* Toledo School of Fine Arts (2008)\n     Degree in Advertising and Graphic Design.",
+          "URL": "http://www.escueladeartetoledo.es",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/25/bdbf0920-1b9f-48a4-a0df-8dfb4eec10f7_logoeatihistoricopng.png",
+            "alt": "LOGOEATIHistoricopng.png"
+          }
+        },
+        "finishDate": "2008-02-01"
+      },
+      {
+        "studyType": "certification",
+        "degreeAchieved": true,
+        "name": "Go Bootcamp: Master Golang with 1000+ Exercises and Projects",
+        "startDate": "2019-09-01",
+        "institution": {
+          "name": "Udemy",
+          "URL": "https://www.udemy.com/certificate/UC-b285d17f-51ac-45ba-a355-dcb98a6468f3/",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/25/41dc497b-e509-42b1-989a-aa05d7e408df_captura-de-pantalla-.png",
+            "alt": "Captura de pantalla 2022-03-25 a las 20.47.52.png"
+          }
+        },
+        "finishDate": "2019-12-01",
+        "linkedCompetences": [
+          {
+            "name": "Golang",
+            "type": "technology"
+          }
+        ]
+      },
+      {
+        "studyType": "certification",
+        "degreeAchieved": true,
+        "name": "MongoDB for DBAs",
+        "startDate": "2013-09-01",
+        "institution": {
+          "name": "MongoDB University",
+          "URL": "https://www.linkedin.com/in/javierlopezdeancos/details/featured/1580836491525/single-media-viewer/",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/25/fe541eb4-d5eb-4b8b-b250-d47d95b54674_captura-de-pantalla-.png",
+            "alt": "Captura de pantalla 2022-03-25 a las 20.41.19.png"
+          }
+        },
+        "finishDate": "2013-08-01",
+        "linkedCompetences": [
+          {
+            "name": "MongoDB",
+            "type": "technology"
+          }
+        ]
+      },
+      {
+        "studyType": "certification",
+        "degreeAchieved": true,
+        "name": "MongoDb for Node.js Developers",
+        "startDate": "2013-09-01",
+        "institution": {
+          "name": "MongoDB University",
+          "URL": "https://www.linkedin.com/in/javierlopezdeancos/details/featured/1580836491740/single-media-viewer/",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/25/873b9da9-0b90-4e2d-add7-19f4e6cc82be_captura-de-pantalla-.png",
+            "alt": "Captura de pantalla 2022-03-25 a las 20.41.19.png"
+          }
+        },
+        "finishDate": "2013-10-01",
+        "linkedCompetences": [
+          {
+            "name": "MongoDB",
+            "type": "technology"
+          }
+        ]
+      }
+    ],
+    "softSkills": [
+      {
+        "skill": {
+          "name": "Continuous learning",
+          "type": "practice"
+        }
+      },
+      {
+        "skill": {
+          "name": "Creative thinking",
+          "type": "practice"
+        }
+      },
+      {
+        "skill": {
+          "name": "Team player",
+          "type": "practice"
+        }
+      }
+    ]
+  }
+}

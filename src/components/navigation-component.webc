@@ -1,0 +1,23 @@
+<nav class="b612-navigation">
+  <span
+    class="b612-navigation-item hggs-text hggs-text--small"
+    webc:for="breadcrumb of breadcrumbs"
+    @text="breadcrumb"
+  >
+  </span>
+  <blink-component webc:nokeep></blink-component>
+</nav>
+
+<style webc>
+  .b612-navigation {
+    width: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: start;
+    gap: var(--hggs-space-xs-default);
+
+    & .b612-navigation-item {
+      margin: 0;
+    }
+  }
+</style>

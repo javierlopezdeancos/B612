@@ -1,24 +1,30 @@
-<header class="b612-header">
-  <navigation-component webc:nokeep :@breadcrumbs="breadcrumbs"></navigation-component>
-</header>
+---
+layout: app-layout.webc
+---
+
+<main class="b612-home-main" @html="this.content"></main>
 
 <style webc>
-  .b612-header {
-    width: 100%;
-    max-width: 2500px;
+  .b612-home-main {
+    display: flex;
+		flex-direction: column;
+    align-items: center !important;
+		justify-content: center !important;
+    gap: var(--hggs-space-md-default);
     padding-left: calc(4 * var(--hggs-space-lg-default));
     padding-right: calc(4 * var(--hggs-space-lg-default));
+    max-width: 2500px;
   }
 
   @media (max-width: 1800px) {
-    .b612-header {
+    .b612-home-main {
       padding-left: calc(3 * var(--hggs-space-lg-default));
       padding-right: calc(3 * var(--hggs-space-lg-default));
     }
   }
 
   @media (max-width: 1500px) {
-    .b612-header {
+    .b612-home-main {
       padding-left: calc(1 * var(--hggs-space-lg-default));
       padding-right: calc(1 * var(--hggs-space-lg-default));
     }
