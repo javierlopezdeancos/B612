@@ -1,5 +1,6 @@
 # build output
 _site/
+.cache/
 
 # dependencies
 node_modules/
