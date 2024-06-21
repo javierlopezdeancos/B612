@@ -10,9 +10,16 @@
     text-decoration: unset;
 
     & img {
-      width: 100px;
-      height: 100px;
+      width: 150px;
+      height: 150px;
       border-radius: 50%;
+    }
+  }
+
+  @media (max-width: 1050px) {
+    .b612-logo img {
+      width: 120px;
+      height: 120px;
     }
   }
 

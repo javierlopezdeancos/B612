@@ -75,7 +75,7 @@ data: javi
       gap: var(--hggs-space-md-default);
 
       & .b612-home-info {
-        gap: var(--hggs-space-default);
+        gap: var(--hggs-space-xs-default);
 
         & .b612-home-name,
         & .b612-home-title {
@@ -94,7 +94,8 @@ data: javi
 
     .b612-home-profiles {
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
+      flex-wrap: wrap;
       align-items: center;
       justify-content: center;
       gap: var(--hggs-space-default);

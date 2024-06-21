@@ -13,7 +13,7 @@
         },
         {
           "type": "personalWebsite",
-          "URL": "https://blog.javierlopezdeancos.dev",
+          "URL": "./blog",
           "description": "Personal blog",
           "name": "blog"
         },
