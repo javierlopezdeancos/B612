@@ -1,6 +1,6 @@
 <img alt="Javis profile pic" src="./img/me.jpg" width="100">
 
-# B612 javierlopezdeancos.dev website
+# B612 `javierlopezdeancos.dev` website
 
 Hi, I'm Javi and this is my public website
 
