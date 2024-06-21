@@ -45,6 +45,23 @@ module.exports = function (eleventyConfig) {
     return english.format(uglyDate)
   })
 
+  eleventyConfig.addJavaScriptFunction("concat", (a, b, s) => `${a}${s}${b}`)
+
+  eleventyConfig.addJavaScriptFunction("breadcrumbs", () => {
+    return global?.page?.url
+      .split("/")
+      .filter((part) => part !== "")
+      .map((part) => part.replace(".html", ""))
+      .map((part) => part.replace(part, "/" + part))
+      .map((part, i) => {
+        if (i === 0 && part !== "/blog") {
+          return part.replace("/posts", "/blog")
+        }
+
+        return part
+      })
+  })
+
   eleventyConfig.addPlugin(eleventyImagePlugin, {
     // Set global default options
     formats: ["webp", "jpeg", "png"],
@@ -85,6 +102,7 @@ module.exports = function (eleventyConfig) {
       // ⚠️ These values are both relative to your input directory.
       includes: "_includes",
       layouts: "src/layouts",
+      data: "data",
     },
   }
 }

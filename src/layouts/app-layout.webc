@@ -13,34 +13,22 @@
 		<script webc:keep @html="this.getJS(this.page?.url)"></script>
 	</head>
 	<body>
-		<div class="hggsw-app hggs-app" @html="this.content"></div>
+		<div class="b612-app hggs-app" @html="this.content"></div>
 	</body>
 </html>
 
 <style webc>
-	.hggsw-app {
-    gap: var(--hggs-space-md-default);
+	.b612-app {
+		font-family: 'Space Mono', monospace;
+		gap: var(--hggs-space-md-default);
 		padding-bottom: var(--hggs-space-sm-default);
-  }
 
-	.hggsw-app {
-		& .hggsw-header {
+		& .b612-header {
 			display: flex;
 			align-items: center;
 			flex-direction: row;
 			justify-content: center;
 		}
-
-		& .hggsw-main {
-			display: flex;
-			flex-direction: column;
-			align-items: start;
-			justify-content: start;
-		}
-	}
-
-	.hggsw-app {
-		font-family: 'Space Mono', monospace;
 
 		& .hggs-h1,
 		& .hggs-h2,
@@ -50,42 +38,7 @@
 		& .hggs-h6 {
 			font-family: 'Space Mono', monospace;
 			font-weight: 400;
-		}
-
-		& .hggs-h1 {
-			&:before {
-				content: '# ';
-			}
-		}
-
-		& .hggs-h2 {
-			&:before {
-				content: '## ';
-			}
-		}
-
-		& .hggs-h3 {
-			&:before {
-				content: '### ';
-			}
-		}
-
-		& .hggs-h4 {
-			&:before {
-				content: '#### ';
-			}
-		}
-
-		& .hggs-h5 {
-			&:before {
-				content: '##### ';
-			}
-		}
-
-		& .hggs-h6 {
-			&:before {
-				content: '###### ';
-			}
+			text-align: left;
 		}
 
 		& .hggs-text {
@@ -131,28 +84,13 @@
 				}
 			}
 		}
-
-		& .hggsw-pill {
-			&:before,
-			&:after {
-				color: var(--hggs-color-gray-006-default);
-			}
-
-			&:before {
-				content: 'fmt.Println("';
-			}
-
-			&:after {
-				content: '")';
-			}
-		}
 	}
 
   @media (max-width: 1050px) {
-    .hggsw-app {
+    .b612-app {
       gap: var(--hggs-space-sm-default);
 
-			& .hggsw-header {
+			& .b612-header {
 				flex-direction: column;
 				margin-bottom: var(--hggs-space-md-default);
 			}

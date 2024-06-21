@@ -1,12 +1,104 @@
 ---
-layout: main-layout.webc
-title: Roma no se conquisto en un story point
+layout: index-layout.webc
+title: javierlopezdeancos.dev
+data: javi
 ---
-<blog-list-component :collections="collections" webc:nokeep></blog-list-component>
+
+<figure class="b612-home-figure">
+  <logo-component webc:nokeep></logo-component>
+  <figcaption class="b612-home-info">
+    <span class="b612-home-name" @text="concat(javi.profile.name, javi.profile.surnames, ' ')"></span>
+    <span class="b612-home-title" @text="javi.profile.title"></span>
+  <figcaption>
+</figure>
+<nav class="b612-home-profiles">
+  <a
+    class="b612-home-link hggs-link"
+    webc:for="profile of javi.profile.contact.publicProfiles"
+    webc:if="profile.name !== 'website'"
+    :href="profile.URL"
+    @text="profile.name"
+  >
+  </a>
+<nav>
 
 <style webc>
-	.hggsw-blog {
-    width: 100%;z
+  .b612-home-figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: var(--hggs-space-default);
+    margin: 0;
+
+    & .b612-home-info {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: var(--hggs-space-xs-default);
+
+      & .b612-home-name {
+        font-family: "Source Code Pro", monospace;
+        font-size: var(--hggs-font-size-5xl-default);
+        font-weight: var(--hggs-font-weight-md-default);
+        color: var(--hggs-color-text-primary);
+      }
+
+      & .b612-home-title {
+        font-family: "Source Code Pro", monospace;
+        font-size: var(--hggs-font-size-2xl-default);
+        font-weight: 200;
+        color: var(--hggs-color-text-primary);
+      }
+    }
+  }
+
+  .b612-home-profiles {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: var(--hggs-space-md-default);
+
+    & .b612-home-link.hggs-link {
+      font-family: "Space Mono", monospace;
+      font-size: var(--hggs-font-size-xs-default);
+      font-weight: var(--hggs-font-weight-md-default);
+      color: var(--hggs-color-text-primary);
+      text-decoration: none;
+    }
+  }
+
+  @media (max-width: 615px) {
+    .b612-home-figure {
+      gap: var(--hggs-space-md-default);
+
+      & .b612-home-info {
+        gap: var(--hggs-space-default);
+
+        & .b612-home-name,
+        & .b612-home-title {
+          text-align: center;
+        }
+
+        & .b612-home-name {
+          font-size: var(--hggs-font-size-2xl-default);
+        }
+
+        & .b612-home-title {
+          font-size: var(--hggs-font-size-md-default);
+        }
+      }
+    }
+
+    .b612-home-profiles {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: var(--hggs-space-default);
+    }
   }
 </style>
 

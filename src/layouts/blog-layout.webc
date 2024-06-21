@@ -1,0 +1,103 @@
+---
+layout: app-layout.webc
+---
+
+<header-component webc:nokeep :@breadcrumbs="breadcrumbs()"></header-component>
+<main class="b612-blog-main">
+  <header class="b612-blog-main-header" webc:if="title">
+    <h1 class="hggs-h1 hggs-title--unbalanced" @text="title"></h1>
+  </header>
+  <section class="b612-blog-main-body" @html="this.content"></section>
+</main>
+<footer-component webc:nokeep @url="blog.javierlopezdeancos.dev"></footer-component>
+
+<style webc>
+  .b612-blog-main {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: start;
+    gap: var(--hggs-space-default);
+		padding-left: calc(4 * var(--hggs-space-lg-default));
+    padding-right: calc(4 * var(--hggs-space-lg-default));
+    max-width: 2500px;
+
+    & .b612-blog-main-header {
+      & .hggs-h1 {
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+    }
+
+    & .b612-blog-main-header,
+    & .b612-blog-main-body {
+      width: 100%
+    }
+
+    & .hggs-h1 {
+			&:before {
+				content: '# ';
+			}
+		}
+
+		& .hggs-h2 {
+			&:before {
+				content: '## ';
+			}
+		}
+
+		& .hggs-h3 {
+			&:before {
+				content: '### ';
+			}
+		}
+
+		& .hggs-h4 {
+			&:before {
+				content: '#### ';
+			}
+		}
+
+		& .hggs-h5 {
+			&:before {
+				content: '##### ';
+			}
+		}
+
+		& .hggs-h6 {
+			&:before {
+				content: '###### ';
+			}
+		}
+
+
+		& .b612-pill {
+			&:before,
+			&:after {
+				color: var(--hggs-color-gray-006-default);
+			}
+
+			&:before {
+				content: 'fmt.Println("';
+			}
+
+			&:after {
+				content: '")';
+			}
+		}
+  }
+
+  @media (max-width: 1800px) {
+    .b612-blog-main {
+      padding-left: calc(3 * var(--hggs-space-lg-default));
+      padding-right: calc(3 * var(--hggs-space-lg-default));
+    }
+  }
+
+  @media (max-width: 1500px) {
+    .b612-blog-main {
+      padding-left: calc(1 * var(--hggs-space-lg-default));
+      padding-right: calc(1 * var(--hggs-space-lg-default));
+    }
+  }
+</style>

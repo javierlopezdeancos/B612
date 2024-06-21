@@ -1,11 +1,10 @@
-<footer class="hggsw-footer">
-  <p class="hggs-text hggs-text--align-center">
-    blog.javierlopezdeancos.dev
+<footer class="b612-footer">
+  <p class="hggs-text hggs-text--align-center" @text="url">
   </p>
 </footer>
 
 <style webc>
-  .hggsw-footer {
+  .b612-footer {
     & .hggs-text {
       width: 100%;
       margin-top: 0;
@@ -15,7 +14,7 @@
   }
 
   @media (max-width: 1050px) {
-    .hggsw-footer {
+    .b612-footer {
       & .hggs-text {
         margin-top: calc(2 * var(--hggs-space-sm-default));
       }

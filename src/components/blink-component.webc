@@ -1,0 +1,23 @@
+<span class="b612-blink">
+</span>
+
+<style webc>
+  .b612-blink {
+    width: 12px;
+    height: 3px;
+    border-bottom: 3px solid var(--hggs-color-primary-default);
+    animation: blink 1s infinite;
+  }
+
+  @keyframes blink {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+</style>

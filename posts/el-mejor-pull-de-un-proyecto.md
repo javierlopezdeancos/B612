@@ -7,4 +7,4 @@ tag: post
 summary: De como entender lo importante de un proyecto de software.
 ---
 
-<span class="hggsw-pill">El mejor pull que puedes hacer de un proyecto son las personas</span>
+<span class="b612-pill">El mejor pull que puedes hacer de un proyecto son las personas</span>
