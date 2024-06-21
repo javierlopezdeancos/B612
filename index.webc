@@ -99,6 +99,10 @@ data: javi
       align-items: center;
       justify-content: center;
       gap: var(--hggs-space-default);
+
+      & .b612-home-link.hggs-link {
+         font-size: var(--hggs-font-size-default);
+      }
     }
   }
 </style>
