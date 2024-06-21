@@ -29,4 +29,10 @@ layout: app-layout.webc
       padding-right: calc(1 * var(--hggs-space-lg-default));
     }
   }
+
+  @media (max-width: 615px) {
+    .b612-home-main {
+      gap: var(--hggs-space-lg-default);
+    }
+  }
 </style>

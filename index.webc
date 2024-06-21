@@ -98,7 +98,7 @@ data: javi
       flex-wrap: wrap;
       align-items: center;
       justify-content: center;
-      gap: var(--hggs-space-default);
+      gap: var(--hggs-space-md-default);
 
       & .b612-home-link.hggs-link {
          font-size: var(--hggs-font-size-default);
