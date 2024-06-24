@@ -42,7 +42,7 @@ layout: app-layout.webc
 
   @media (width <= 615px) {
     .b612-home-main {
-      gap: var(--hggs-space-md-default);
+      gap: var(--hggs-space-default);
     }
   }
 </style>

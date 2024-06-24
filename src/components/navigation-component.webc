@@ -12,6 +12,7 @@
   .b612-navigation {
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     align-items: end;
     justify-content: start;
     gap: var(--hggs-space-xs-default);

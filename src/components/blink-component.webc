@@ -4,8 +4,9 @@
 <style webc>
   .b612-blink {
     width: 12px;
-    height: 3px;
-    border-bottom: 3px solid var(--hggs-color-gray-012-default);
+    height: 2px;
+    border-bottom: 2px solid var(--hggs-color-gray-009-default);
+    margin-bottom: 4px;
     animation: blink 1s infinite;
   }
 

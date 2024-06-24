@@ -85,4 +85,19 @@ layout: app-layout.webc
 			}
 		}
   }
+
+	@media (width <= 500px) {
+		.b612-navigation {
+			& .b612-navigation-item {
+				font-size: var(--hggs-font-size-2xs-default);
+			}
+
+			& .b612-blink {
+				width: 10px;
+    		height: 2px;
+				border-bottom: 2px solid var(--hggs-color-gray-009-default);
+				margin-bottom: 4px;
+			}
+		}
+	}
 </style>
