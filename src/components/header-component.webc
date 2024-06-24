@@ -5,22 +5,5 @@
 <style webc>
   .b612-header {
     width: 100%;
-    max-width: 2500px;
-    padding-left: calc(4 * var(--hggs-space-lg-default));
-    padding-right: calc(4 * var(--hggs-space-lg-default));
-  }
-
-  @media (max-width: 1800px) {
-    .b612-header {
-      padding-left: calc(3 * var(--hggs-space-lg-default));
-      padding-right: calc(3 * var(--hggs-space-lg-default));
-    }
-  }
-
-  @media (max-width: 1500px) {
-    .b612-header {
-      padding-left: calc(1 * var(--hggs-space-lg-default));
-      padding-right: calc(1 * var(--hggs-space-lg-default));
-    }
   }
 </style>

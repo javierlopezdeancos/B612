@@ -10,7 +10,7 @@ layout: app-layout.webc
 		flex-direction: column;
     align-items: center !important;
 		justify-content: center !important;
-    gap: var(--hggs-space-md-default);
+    gap: var(--hggs-space-default);
     padding-left: calc(4 * var(--hggs-space-lg-default));
     padding-right: calc(4 * var(--hggs-space-lg-default));
     max-width: 2500px;
@@ -30,9 +30,21 @@ layout: app-layout.webc
     }
   }
 
+  @media (max-width: 950px) {
+    .b612-home-main {
+      gap: calc(var(--hggs-space-md-default)/2);
+    }
+  }
+
+  @media (max-width: 800px) {
+    .b612-home-main {
+      gap: calc(var(--hggs-space-md-default)/1);
+    }
+  }
+
   @media (max-width: 615px) {
     .b612-home-main {
-      gap: var(--hggs-space-lg-default);
+      gap: var(--hggs-space-md-default);
     }
   }
 </style>

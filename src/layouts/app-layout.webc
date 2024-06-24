@@ -2,6 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
 		<link webc:keep rel="stylesheet" href="/src/styles/higgsboson.min.css" />
 		<link webc:keep rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prism-theme-vars/base.css">
 		<link webc:keep rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,28 +14,81 @@
 		<script webc:keep @html="this.getJS(this.page?.url)"></script>
 	</head>
 	<body>
-		<div class="b612-app hggs-app" @html="this.content"></div>
+		<div class="b612-app">
+			<div class="b612-container" @html="this.content">
+		</div>
 	</body>
 </html>
 
 <style webc>
 	.b612-app {
 		font-family: 'Space Mono', monospace;
-		gap: var(--hggs-space-md-default);
-		padding-bottom: var(--hggs-space-sm-default);
+		padding: var(--hggs-space-md-default);
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		height: 100vh;
+		width: 100vw;
+
+		& .b612-container {
+			max-width: 2500px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: start;
+			gap: var(--hggs-space-default);
+			padding-left: calc(4 * var(--hggs-space-lg-default));
+    	padding-right: calc(4 * var(--hggs-space-lg-default));
+			height: 100%;
+		}
 
 		& .b612-header {
 			display: flex;
 			align-items: center;
 			flex-direction: row;
 			justify-content: center;
+			height: 50px;
 		}
 
-		& .hggs-h1,
-		& .hggs-h2,
-		& .hggs-h3,
-		& .hggs-h4,
-		& .hggs-h5,
+		& main {
+			flex: 1;
+		}
+
+		& .b612-footer {
+			height: 50px;
+		}
+
+		& .hggs-h1 {
+			font-family: 'Space Mono', monospace;
+			font-weight: 400;
+			text-align: left;
+		}
+
+		& .hggs-h2 {
+			font-family: 'Space Mono', monospace;
+			font-weight: 400;
+			text-align: left;
+		}
+
+		& .hggs-h3 {
+			font-family: 'Space Mono', monospace;
+			font-weight: 400;
+			text-align: left;
+		}
+
+		& .hggs-h4 {
+			font-family: 'Space Mono', monospace;
+			font-weight: 400;
+			text-align: left;
+		}
+
+		& .hggs-h5 {
+			font-family: 'Space Mono', monospace;
+			font-weight: 400;
+			text-align: left;
+		}
+
 		& .hggs-h6 {
 			font-family: 'Space Mono', monospace;
 			font-weight: 400;
@@ -86,13 +140,46 @@
 		}
 	}
 
-  @media (max-width: 1050px) {
+	@media (1500 < width) {
     .b612-app {
-      gap: var(--hggs-space-sm-default);
+			& .b612-container {
+				padding-left: calc(3 * var(--hggs-space-lg-default));
+      	padding-right: calc(3 * var(--hggs-space-lg-default));
+			}
+    }
+  }
 
-			& .b612-header {
-				flex-direction: column;
-				margin-bottom: var(--hggs-space-md-default);
+  @media (1000px < width <= 1500px) {
+    .b612-app {
+			& .b612-container {
+      	padding-left: calc(1.5 * var(--hggs-space-lg-default));
+      	padding-right: calc(1.5 * var(--hggs-space-lg-default));
+			}
+    }
+  }
+
+	@media (500px < width <= 1000px) {
+    .b612-app {
+			& .b612-container {
+      	padding-left: var(--hggs-space-default);
+      	padding-right: var(--hggs-space-default);
+			}
+
+			& .hggs-list {
+				padding-left: var(--hggs-space-md-default);
+			}
+    }
+  }
+
+	@media (width <= 500px) {
+    .b612-app {
+			& .b612-container {
+      	padding-left: calc(var(--hggs-space-default)/2);
+      	padding-right: calc(var(--hggs-space-default)/2);
+			}
+
+			& .hggs-list {
+				padding-left: var(--hggs-space-md-default);
 			}
     }
   }
