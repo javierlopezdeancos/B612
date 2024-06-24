@@ -42,7 +42,7 @@ data: javi
         font-family: "Source Code Pro", monospace;
         font-size: var(--hggs-font-size-5xl-default);
         font-weight: var(--hggs-font-weight-md-default);
-        color: var(--hggs-color-text-primary);
+        color: var(--hggs-color-default);
         text-align: center;
       }
 
@@ -50,7 +50,7 @@ data: javi
         font-family: "Source Code Pro", monospace;
         font-size: var(--hggs-font-size-2xl-default);
         font-weight: 200;
-        color: var(--hggs-color-text-primary);
+        color: var(--hggs-color-default);
       }
     }
   }
@@ -66,7 +66,7 @@ data: javi
       font-family: "Space Mono", monospace;
       font-size: var(--hggs-font-size-default);
       font-weight: var(--hggs-font-weight-md-default);
-      color: var(--hggs-color-text-primary);
+      color: var(--hggs-color-default);
       text-decoration: none;
     }
   }
