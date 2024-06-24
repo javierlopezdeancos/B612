@@ -5,7 +5,7 @@
   .b612-blink {
     width: 12px;
     height: 3px;
-    border-bottom: 3px solid var(--hggs-color-primary-default);
+    border-bottom: 3px solid var(--hggs-color-gray-012-default);
     animation: blink 1s infinite;
   }
 

@@ -1,6 +1,8 @@
 <footer class="b612-footer">
-  <p class="hggs-text hggs-text--align-center" @text="url">
-  </p>
+  <span class="hggs-text hggs-text--align-center">Madrid,</span>
+  <time>
+    <span class="hggs-text hggs-text--align-center" @text="niceDate(new Date())"></span>
+  </time>
 </footer>
 
 <style webc>
@@ -10,10 +12,11 @@
       margin-top: 0;
       margin-bottom: calc(var(--hggs-space-md-default));
       font-size: var(--hggs-font-size-2xs-default);
+      color: var(--hggs-color-gray-012-default);
     }
   }
 
-  @media (max-width: 1050px) {
+  @media (width <= 1050px) {
     .b612-footer {
       & .hggs-text {
         margin-top: calc(2 * var(--hggs-space-sm-default));

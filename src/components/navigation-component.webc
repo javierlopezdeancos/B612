@@ -18,6 +18,7 @@
 
     & .b612-navigation-item {
       margin: 0;
+      color: var(--hggs-color-gray-012-default);
     }
   }
 </style>

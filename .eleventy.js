@@ -42,7 +42,11 @@ module.exports = function (eleventyConfig) {
   })
 
   eleventyConfig.addFilter("niceDate", function (uglyDate) {
-    return english.format(uglyDate)
+    return new Date(uglyDate).toLocaleDateString("en-US", {
+      year: "numeric",
+      month: "long",
+      day: "numeric",
+    })
   })
 
   eleventyConfig.addJavaScriptFunction("concat", (a, b, s) => `${a}${s}${b}`)
