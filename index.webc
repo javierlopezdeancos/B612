@@ -71,7 +71,7 @@ data: javi
     }
   }
 
-  @media (max-width: 615px) {
+  @media (485px < width <= 615px) {
     .b612-home-figure {
       gap: var(--hggs-space-md-default);
 
@@ -107,7 +107,7 @@ data: javi
   }
 
 
-  @media (max-width: 485px) {
+  @media (width <= 485px) {
     .b612-home-profiles {
       flex-direction: column;
       gap: var(--hggs-space-default);
