@@ -56,13 +56,13 @@ module.exports = function (eleventyConfig) {
       .split("/")
       .filter((part) => part !== "")
       .map((part) => part.replace(".html", ""))
-      .map((part) => part.replace(part, "/" + part))
+      .map((part) => part.replace(part, "~/" + part))
       .map((part, i) => {
-        if (i === 0 && part !== "/blog") {
+        if (i === 0 && part !== "/posts") {
           return part.replace("/posts", "/blog")
         }
 
-        return part
+        return "/post"
       })
   })
 

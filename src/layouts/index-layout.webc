@@ -14,20 +14,6 @@ layout: app-layout.webc
     max-width: 2500px;
   }
 
-  @media (1500px < width) {
-    .b612-home-main {
-      padding-left: calc(3 * var(--hggs-space-lg-default));
-      padding-right: calc(3 * var(--hggs-space-lg-default));
-    }
-  }
-
-  @media (950px < width <= 1500px) {
-    .b612-home-main {
-      padding-left: calc(1 * var(--hggs-space-lg-default));
-      padding-right: calc(1 * var(--hggs-space-lg-default));
-    }
-  }
-
   @media (800px < width <= 950px) {
     .b612-home-main {
       gap: calc(var(--hggs-space-md-default)/2);
