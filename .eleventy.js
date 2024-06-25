@@ -37,8 +37,6 @@ module.exports = function (eleventyConfig) {
     markdownIt(markdownParserOptions).use(markdownItClass, mapping)
   )
 
-  const english = new Intl.DateTimeFormat("en")
-
   eleventyConfig.addCollection("post", function (collectionApi) {
     return collectionApi.getFilteredByTags("post").reverse()
   })
