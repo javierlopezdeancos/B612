@@ -9,7 +9,7 @@
 		<link webc:keep rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link webc:keep href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 		<link webc:keep href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
-		<title>blog.javierlopezdeancos.dev</title>
+		<title>javierlopezdeancos.dev</title>
 		<style webc:keep @html="this.getCSS(this.page?.url)"></style>
 		<script webc:keep @html="this.getJS(this.page?.url)"></script>
 	</head>
