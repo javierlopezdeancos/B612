@@ -9,7 +9,6 @@ layout: app-layout.webc
   </header>
   <section class="b612-blog-main-body" @html="this.content"></section>
 </main>
-<footer-component webc:nokeep @url="blog.javierlopezdeancos.dev"></footer-component>
 
 <style webc>
   .b612-blog-main {

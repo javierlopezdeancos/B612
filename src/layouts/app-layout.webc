@@ -59,10 +59,6 @@
 			flex: 1;
 		}
 
-		& .b612-footer {
-			height: 50px;
-		}
-
 		& .hggs-h1 {
 			font-family: 'Space Mono', monospace;
 			font-weight: 400;
