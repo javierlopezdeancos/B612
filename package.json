@@ -10,7 +10,8 @@
     "@11ty/eleventy-plugin-webc": "^0.11.2",
     "@toycode/markdown-it-class": "^1.2.4",
     "markdown-it": "^14.1.0",
-    "prettier": "^3.3.3"
+    "prettier": "^3.3.3",
+    "sharp": "^0.33.5"
   },
   "license": "GPL-3.0-only",
   "scripts": {
@@ -28,5 +29,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/javierlopezdeancos/B612Blog"
+  },
+  "dependencies": {
   }
 }
