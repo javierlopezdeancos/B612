@@ -4,13 +4,13 @@
   "author": "Javier Lopez de Ancos",
   "main": "index.js",
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.1",
-    "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
-    "@11ty/eleventy-plugin-webc": "^0.11.1",
+    "@11ty/eleventy": "^3.0.0",
     "@11ty/eleventy-img": "^5.0.0",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
+    "@11ty/eleventy-plugin-webc": "^0.11.2",
     "@toycode/markdown-it-class": "^1.2.4",
-    "markdown-it": "^13.0.1",
-    "prettier": "^3.3.1"
+    "markdown-it": "^14.1.0",
+    "prettier": "^3.3.3"
   },
   "license": "GPL-3.0-only",
   "scripts": {
@@ -28,7 +28,5 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/javierlopezdeancos/B612Blog"
-  },
-  "dependencies": {
   }
 }
