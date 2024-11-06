@@ -6,8 +6,8 @@ const { eleventyImagePlugin } = require("@11ty/eleventy-img")
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/styles")
-  eleventyConfig.addPassthroughCopy({ "img/favicon": "/" })
-  eleventyConfig.addPassthroughCopy({ "site.webmanifest": "/" })
+  eleventyConfig.addPassthroughCopy({ "img/favicon": "" }, { debug: true })
+  eleventyConfig.addPassthroughCopy({ "site.webmanifest": "" }, { debug: true })
 
   const markdownParserOptions = {
     html: true,
