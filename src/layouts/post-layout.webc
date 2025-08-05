@@ -125,9 +125,13 @@ layout: blog-layout.webc
 	.b612-post-body {
 		& .hggs-text {
 			color: var(--hggs-color-gray-016-default);
+			font-size: var(--hggs-font-size-md-default);
+			line-height: var(--hggs-line-height-lg-default);
+			font-weight: 400;
 
 			& strong {
 				color: var(--hggs-color-primary-default);
+				font-weight: 600;
 			}
 		}
 	}

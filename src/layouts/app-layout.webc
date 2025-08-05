@@ -34,9 +34,10 @@
 		justify-content: center;
 		height: 100vh;
 		width: 100vw;
+		overflow-x: hidden;
 
 		& .b612-container {
-			max-width: 2500px;
+			width: 1200px;
 			display: flex;
 			flex-direction: column;
 			align-items: center;
@@ -132,10 +133,10 @@
 				}
 
 				&::marker {
-					content: '-->  ';
+					content: '■   ';
 					font-size: 16px;
 					font-weight: 200;
-					margin-top: 50px;
+					margin-top: 10px;
 				}
 
 				&:last-child {
@@ -157,6 +158,7 @@
   @media (1000px < width <= 1500px) {
     .b612-app {
 			& .b612-container {
+				width: 1000px;
       	padding-left: calc(1.5 * var(--hggs-space-lg-default));
       	padding-right: calc(1.5 * var(--hggs-space-lg-default));
 			}
@@ -170,6 +172,7 @@
 	@media (800px < width <= 1000px) {
     .b612-app {
 			& .b612-container {
+				width: 90%;
       	padding-left: var(--hggs-space-default);
       	padding-right: var(--hggs-space-default);
 			}
@@ -183,6 +186,7 @@
 	@media (500px < width <= 800px) {
     .b612-app {
 			& .b612-container {
+				width: 90%;
       	padding-left: var(--hggs-space-default);
       	padding-right: var(--hggs-space-default);
 			}
@@ -196,6 +200,7 @@
 	@media (width <= 500px) {
     .b612-app {
 			& .b612-container {
+				width: 90%;
       	padding-left: calc(var(--hggs-space-default)/2);
       	padding-right: calc(var(--hggs-space-default)/2);
 			}
