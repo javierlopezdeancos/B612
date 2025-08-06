@@ -68,6 +68,9 @@ layout: app-layout.webc
 			}
 		}
 
+		& .hggs-blockquote {
+			border-left: 10px solid var(--hggs-color-gray-006-default);
+		}
 
 		& .b612-pill {
 			&:before,
