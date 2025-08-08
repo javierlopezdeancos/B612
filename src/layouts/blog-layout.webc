@@ -25,6 +25,8 @@ layout: app-layout.webc
       & .hggs-h1 {
         margin-top: 0;
         margin-bottom: 0;
+				font-size: var(--hggs-font-size-2xl-default);
+				line-height: var(--hggs-line-height-2xl-default);
       }
     }
 

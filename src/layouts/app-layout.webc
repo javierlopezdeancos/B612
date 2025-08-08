@@ -32,8 +32,6 @@
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
-		height: 100vh;
-		width: 100vw;
 		overflow-x: hidden;
 
 		& .b612-container {
@@ -64,40 +62,47 @@
 			font-family: 'Space Mono', monospace;
 			font-weight: 400;
 			text-align: left;
+			hyphens: auto;
 		}
 
 		& .hggs-h2 {
 			font-family: 'Space Mono', monospace;
 			font-weight: 400;
 			text-align: left;
+			hyphens: auto;
 		}
 
 		& .hggs-h3 {
 			font-family: 'Space Mono', monospace;
 			font-weight: 400;
 			text-align: left;
+			hyphens: auto;
 		}
 
 		& .hggs-h4 {
 			font-family: 'Space Mono', monospace;
 			font-weight: 400;
 			text-align: left;
+			hyphens: auto;
 		}
 
 		& .hggs-h5 {
 			font-family: 'Space Mono', monospace;
 			font-weight: 400;
 			text-align: left;
+			hyphens: auto;
 		}
 
 		& .hggs-h6 {
 			font-family: 'Space Mono', monospace;
 			font-weight: 400;
 			text-align: left;
+			hyphens: auto;
 		}
 
 		& .hggs-text {
 			font-family: "Source Code Pro", monospace;
+			hyphens: auto;
 		}
 
 		& .hggs-link {
@@ -113,19 +118,22 @@
 
 		& .hggs-list {
 			list-style-type: none;
-			padding-left: var(--hggs-space-default);
 
 			& .hggs-list-item {
-				margin-bottom: var(--hggs-space-md-default);
+				margin-bottom: var(--hggs-space-default);
 
 				& a {
 					font-family: "Source Code Pro", monospace;
 					font-weight: 600;
+					margin: 0;
+					hyphens: auto;
+					max-width: 75%;
 				}
 
 				& .hggs-text {
-					margin-top: 0;
-					margin-bottom: var(--hggs-space-sm-default);
+					margin-top: 5px;
+					margin-bottom: 0;
+					margin-left: 0;
 				}
 
 				& strong {
@@ -162,10 +170,6 @@
       	padding-left: calc(1.5 * var(--hggs-space-lg-default));
       	padding-right: calc(1.5 * var(--hggs-space-lg-default));
 			}
-
-			& .hggs-list {
-				padding-left: calc(var(--hggs-space-default)/1.2);
-			}
     }
   }
 
@@ -176,10 +180,6 @@
       	padding-left: var(--hggs-space-default);
       	padding-right: var(--hggs-space-default);
 			}
-
-			& .hggs-list {
-				padding-left: var(--hggs-space-default);
-			}
     }
   }
 
@@ -189,10 +189,6 @@
 				width: 90%;
       	padding-left: var(--hggs-space-default);
       	padding-right: var(--hggs-space-default);
-			}
-
-			& .hggs-list {
-				padding-left: var(--hggs-space-md-default);
 			}
     }
   }
@@ -208,10 +204,6 @@
 			& .hggs-h1 {
 				font-size: var(--hggs-font-size-xl-default);
 				line-height: calc(var(--hggs-line-height-2xs-default)*1.5);
-			}
-
-			& .hggs-list {
-				padding-left: var(--hggs-space-md-default);
 			}
     }
   }

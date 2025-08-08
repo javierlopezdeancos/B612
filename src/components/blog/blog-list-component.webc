@@ -26,7 +26,7 @@
       display: flex;
       justify-content: start;
       align-items: center;
-      gap: var(--hggs-space-2xs-default);
+      gap: var(--hggs-space-default);
     }
   }
 
@@ -38,7 +38,6 @@
     & .b612-posts-item-date {
       font-size: var(--hggs-font-size-2xs-default);
       color: var(--hggs-color-gray-013-default);
-      margin-left: var(--hggs-space-default);
     }
 
     & .b612-posts-item-summary {
@@ -52,7 +51,7 @@
       & .b612-post-item-header {
         display: flex;
         flex-direction: column;
-        gap: var(--hggs-space-4xs-default);
+        gap: var(--hggs-space-xs-default);
         justify-content: start;
         align-items: start;
 
