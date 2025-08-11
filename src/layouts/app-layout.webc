@@ -31,12 +31,14 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		justify-content: center;
-		height: 100%;
+		justify-content: start;
 		overflow-x: hidden;
+		overflow-y: auto;
+		height: 100%;
 
 		& .b612-container {
 			width: 1500px;
+			height: 100%;
 			display: flex;
 			flex-direction: column;
 			align-items: center;
@@ -44,7 +46,6 @@
 			gap: var(--hggs-space-default);
 			padding-left: calc(4 * var(--hggs-space-lg-default));
     	padding-right: calc(4 * var(--hggs-space-lg-default));
-			height: 100%;
 		}
 
 		& .b612-header {
