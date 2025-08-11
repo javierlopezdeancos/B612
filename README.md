@@ -1,6 +1,7 @@
-<img alt="Javis profile pic" src="./img/me.jpg" width="100">
 
 # B612 `javierlopezdeancos.dev` website
+
+<img alt="Javi's profile pic" src="./img/me.jpg" width="100">
 
 Hi, I'm Javi and this is my public website
 
@@ -14,5 +15,6 @@ All commands are run from the root of the project, from a terminal:
 | Command                | Action                                             |
 | :--------------------- | :------------------------------------------------- |
 | `npm install`          | Installs dependencies                              |
+| `npm run format`       | Fix format on posts `md` files on `./posts/`       |
 | `npm run dev`          | Starts local dev server at `localhost:8080`        |
 | `npm run build`        | Build your production site to `./_site/`           |
