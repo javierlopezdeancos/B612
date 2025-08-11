@@ -166,7 +166,7 @@
   @media (1000px < width <= 1500px) {
     .b612-app {
 			& .b612-container {
-				width: 1000px;
+				width: 1100px;
       	padding-left: calc(1.5 * var(--hggs-space-lg-default));
       	padding-right: calc(1.5 * var(--hggs-space-lg-default));
 			}

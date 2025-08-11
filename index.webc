@@ -64,6 +64,7 @@ data: javi
     align-items: center;
     justify-content: center;
     gap: var(--hggs-space-md-default);
+    line-height: var(--hggs-line-height-2xs-default);
 
     & .b612-home-link.hggs-link {
       font-family: "Space Mono", monospace;

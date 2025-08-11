@@ -1,6 +1,6 @@
 ---
 title: Saturno devorando a sus hijos
-date: 2025-01-02
+date: 2025-08-11
 author: javierlopezdeancos
 categories: []
 tag: post
@@ -9,8 +9,7 @@ summary: El departamento de producto se ha comido el producto.
 
 Un cuadro que seguro todos hemos visto alguna vez es el de [Saturno devorando a su hijo](https://es.wikipedia.org/wiki/Saturno_devorando_a_su_hijo) de Francisco de Goya. Saturno, el dios latino asimilado de Chornos en la cultura griega, aglutinaba el símil del mito del paso del tiempo. En el cuadro de Goya, Saturno **se comía a sus hijos** recién nacidos de Ops, su mujer, **por temor a ser destronado por uno de ellos**. Sin embargo, según la interpretación de otro pintor coetáneo, Barragán, se trataría de un retrato satírico de Fernando VII devorando a España. EN cualquiera de los casos, ahora entenderemos el porque de este contexto inicial y de como incidirá en este articulo.
 
-Cuando hablamos de **productos digitales** deberíamos hacerlo con mucho más rigor. En general, el proceso de implementación de una idea en un producto digital, está estructurado en varios departamentos como son: ingeniería,
-producto, marketing, ventas etc. Cada uno de estos departamentos tiene sus propias responsabilidades y herramientas para resolver los problemas que necesitar enfrentar para conseguir sus propios objetivos.
+Cuando hablamos de **productos digitales** deberíamos hacerlo con mucho más rigor. En general, el proceso de implementación de una idea en un producto digital, está estructurado en varios departamentos como son: ingeniería, producto, marketing, ventas etc. Cada uno de estos departamentos tiene sus propias responsabilidades y herramientas para resolver los problemas que necesitar enfrentar para conseguir sus propios objetivos.
 
 > EL primer error es creer que un producto digital es algo que se puede producir y monetizar sin tener en cuenta cualquiera de los departamentos en los que esta estructurado, por ejemplo, la ingeniería.
 
