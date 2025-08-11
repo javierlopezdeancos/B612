@@ -33,61 +33,6 @@ layout: app-layout.webc
     & .b612-blog-main-body {
       width: 100%
     }
-
-    & .hggs-h1 {
-			&:before {
-				content: '# ';
-			}
-		}
-
-		& .hggs-h2 {
-			&:before {
-				content: '## ';
-			}
-		}
-
-		& .hggs-h3 {
-			&:before {
-				content: '### ';
-			}
-		}
-
-		& .hggs-h4 {
-			&:before {
-				content: '#### ';
-			}
-		}
-
-		& .hggs-h5 {
-			&:before {
-				content: '##### ';
-			}
-		}
-
-		& .hggs-h6 {
-			&:before {
-				content: '###### ';
-			}
-		}
-
-		& .hggs-blockquote {
-			border-left: 10px solid var(--hggs-color-gray-006-default);
-		}
-
-		& .b612-pill {
-			&:before,
-			&:after {
-				color: var(--hggs-color-gray-006-default);
-			}
-
-			&:before {
-				content: 'fmt.Println("';
-			}
-
-			&:after {
-				content: '")';
-			}
-		}
   }
 
 	@media (width <= 500px) {
