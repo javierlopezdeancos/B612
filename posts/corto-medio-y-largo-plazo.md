@@ -11,9 +11,9 @@ Los proyectos de software necesitan una estrategia que asuma **cómo vamos a rev
 
 Esto, a veces llamado **visión estratégica** y es algo más complejo donde intervienen muchas más intenciones y más complejas como pueden ser la planificación o la gestión y dosificación de personas y recursos.
 
-Es complicado reunir y retener todas esas skills, pero sin duda alguna, es mucho más complicado tenerlas y que no se vean afectadas por la polución que en muchas ocasiones contamina un proyecto de software.
+Es complicado reunir y retener todas esas skills, pero sin duda alguna, lo más complicado es que no se vean afectadas por la polución que en muchas ocasiones contamina un proyecto de software.
 
-Identificar qué genera esta polución, nos ayudará a establecer un plan para poder reducirla (_esto también es estrategia_) y asi poder aplicar el engrasando de las habilidades que necesitamos engranar.
+Identificar qué genera esta polución, nos ayudará a establecer un plan para poder reducirla (_esto también es estrategia_) y asi poder aplicar el engrasando en las habilidades que necesitamos engranar.
 
 - **Falta de definición, ámbito y competencia de los roles**. De un tiempo a esta parte, e influenciados por la idea de
 flexibilidad y resiliencia, se ha abogado por perfiles más [SUV](https://en.wikipedia.org/wiki/Sport_utility_vehicle), que puedan desempeñarse en varios ámbitos, dominios y tecnologías de una empresa. En su concepto teórico, es una premisa que resulta idónea en un estado muy concreto del ciclo de desarrollo del producto, en un contexto muy cambiante, pero desafortunadamente no funciona asi en la practica para muchos otros contextos a los que se deberá enfrenar el proyecto.
