@@ -1,6 +1,6 @@
 ---
 title: Facto III
-date: 2024-06-17
+date: 2025-08-14
 author: javierlopezdeancos
 categories: ["fact"]
 tag: post
