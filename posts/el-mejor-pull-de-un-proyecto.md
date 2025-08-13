@@ -1,8 +1,8 @@
 ---
-title: Píldora II
+title: Facto II
 date: 2024-06-17
 author: javierlopezdeancos
-categories: ["pill"]
+categories: ["fact"]
 tag: post
 summary: De como entender lo importante de un proyecto de software.
 ---
