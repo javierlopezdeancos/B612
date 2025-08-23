@@ -23,7 +23,7 @@ Pero, como explicaba anteriormente, el producto digital esta conformado por much
 
 Entender en este punto, que el ensamblado de todo el proceso no es lineal, a modo de cadena de montaje, en multiples ocasiones varios departamentos o secciones están actuando sobre el estado en construcción del producto.
 
-Aunque sobre todo, donde ha radicado el mayor error en la construcción de productos digitales desde hace 15 años, es en la confusión de que el departamento de producto era el producto**.
+Aunque sobre todo, donde ha radicado el mayor error en la construcción de productos digitales desde hace 15 años, es en la confusión de que el departamento de producto era el producto*.
 
 Pero realmente podemos hablar de una confusión o, por el contrario ¿Ha sido mas bien algún tipo de movimiento intencionado que ha intentado, por diferentes intereses, aglutinar el poder decisorio de lo que surge y sobretodo urge en el proceso de elaboración de un producto digital?
 
