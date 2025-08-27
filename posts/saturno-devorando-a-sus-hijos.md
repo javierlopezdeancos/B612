@@ -9,11 +9,11 @@ summary: El departamento de producto se ha comido el producto.
 
 Un cuadro que seguro todos hemos visto alguna vez es el de [Saturno devorando a su hijo](https://es.wikipedia.org/wiki/Saturno_devorando_a_su_hijo) de Francisco de Goya. Saturno, el dios latino importado del [Cronos](https://es.wikipedia.org/wiki/Crono) de la cultura griega, simbolizaba el paso del tiempo. En el cuadro de Goya, Saturno **se comía a sus hijos** recién nacidos de Ops, su mujer, **por temor a ser destronado por uno de ellos**. Sin embargo, según la interpretación de otro pintor coetáneo, Barragán, se trataría de un retrato satírico de Fernando VII devorando a España. En cualquiera de los casos, ahora entenderemos el porque de este contexto inicial y de como incidirá en este articulo.
 
-Cuando hablamos de **productos digitales** deberíamos hacerlo con mucho más rigor. En general, el proceso de implementación de una idea en un producto digital, está estructurado en varios departamentos como son: ingeniería, producto, marketing, ventas etc. Cada uno de estos departamentos tiene sus propias responsabilidades y herramientas para resolver los problemas que necesitar enfrentar para conseguir sus propios objetivos.
+**Cuando hablamos de productos digitales deberíamos hacerlo con mucho más rigor**. En general, el proceso de implementación de una idea en un producto digital, está estructurado en varios departamentos como son: ingeniería, producto, marketing, ventas etc. Cada uno de estos departamentos tiene sus propias responsabilidades y herramientas para resolver los problemas que necesitar enfrentar para conseguir sus propios objetivos.
 
 > EL primer error es creer que un producto digital es algo que se puede producir y monetizar sin tener en cuenta cualquiera de los departamentos en los que esta estructurado, por ejemplo, la ingeniería.
 
-Y aquí es donde viene el malentendido. Para mi, un producto digital es la **concreción e implementación de una idea** en un formato digital, que dará como consecuencia el **intercambio económico** a cambio de la resolución de un problema de nuestros usuarios a través de la ingeniería.
+Y aquí es donde viene el malentendido. Para mi, un producto digital es la concreción e implementación de una idea en un formato digital, que **dará como consecuencia el intercambio económico a cambio de la resolución de un problema de nuestros usuarios** a través de la ingeniería.
 
 Remarco la sentencia de, **«a través de la ingeniería»**, porque es muy relevante ver como hemos pasado de dejar de aplicarla para aplicar la sentencia de, **«a pesar de la ingeniería»**. Este es el primer error que cometemos, creer que un producto digital es algo que se puede producir y monetizar sin tener en cuenta la ingeniería.
 
