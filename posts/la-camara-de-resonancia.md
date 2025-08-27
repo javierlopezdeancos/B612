@@ -9,9 +9,9 @@ summary: La cámara de resonancia, el rey desnudo etc.
 
 Si algo me gustaba de las sesiones de pair programming eran las discusiones. Bueno, no exactamente las discusiones como las entendemos en un contexto general, mas bien aludiendo a tres de las acepciones que nos da para el termino la Real Academia de la lengua española:
 
-1. *Acción y efecto de discutir*. Se refiere al proceso mismo de examinar, debatir o controversar sobre un tema.
-2. *Examen atento y particular que se hace de algo aduciendo razones*. Cuando se analiza cuidadosamente un asunto presentando argumentos y fundamentos.
-3. *Controversia sobre una materia entre varias personas*. El intercambio de opiniones diferentes entre dos o más personas sobre un tema específico.
+1. **Acción y efecto de discutir**. Se refiere al proceso mismo de examinar, debatir o controversar sobre un tema.
+2. **Examen atento y particular que se hace de algo aduciendo razones**. Cuando se analiza cuidadosamente un asunto presentando argumentos y fundamentos.
+3. **Controversia sobre una materia entre varias personas**. El intercambio de opiniones diferentes entre dos o más personas sobre un tema específico.
 
 Las tres acepciones nos hablan mas de un intercambio de opiniones sobre algo en lo que no se esta de acuerdo. Y a esto me refería antes y de lo que mas echo de menos de tener un *Copiloto* a la vez que programo. Y no me estoy refiriendo a un copiloto en el sentido como ahora lo entenderíamos, una inteligencia artificial que me asista en el proceso de programación, sino a un compañero humano con el que poder discutir y debatir ideas, estoy hablando de un par de ojos y un par de manos extra que me ayuden a poner en duda mis propias ideas, si algo hacemos bien los humanos es cuestionarnos todo, aunque provenga de tu pana dev.
 
