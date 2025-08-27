@@ -26,7 +26,7 @@ module.exports = function (eleventyConfig) {
     h6: "hggs-h6",
     ul: "hggs-list",
     ol: "hggs-list",
-    li: "hggs-list-item",
+    li: "hggs-list-item hggs-text",
     blockquote: "hggs-blockquote",
     code: "hggs-code",
     pre: "hggs-pre",
