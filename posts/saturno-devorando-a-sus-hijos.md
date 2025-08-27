@@ -23,7 +23,7 @@ Pero, como explicaba anteriormente, el producto digital esta conformado por much
 
 Entender en este punto, que el ensamblado de todo el proceso no es lineal, a modo de cadena de montaje, en multiples ocasiones varios departamentos o secciones están actuando sobre el estado en construcción del producto.
 
-Aunque sobre todo, donde ha radicado el mayor error en la construcción de productos digitales desde hace 15 años, es en la confusión de que el departamento de producto era el producto*.
+Aunque sobre todo, donde ha radicado el mayor error en la construcción de productos digitales desde hace 15 años, es en **la confusión de que el departamento de producto era el producto**.
 
 Pero realmente podemos hablar de una confusión o, por el contrario ¿Ha sido mas bien algún tipo de movimiento intencionado que ha intentado, por diferentes intereses, aglutinar el poder decisorio de lo que surge y sobretodo urge en el proceso de elaboración de un producto digital?
 
@@ -33,4 +33,4 @@ En todas las organizaciones existen relaciones y luchas de poder, cuanto mas pod
 
 > Cada departamento necesita de un líder nivel C que tenga el suficiente seniority como para negociar su nivel de autonomía, las herramientas y el equipo necesario para completar su roadmap en la estructura federativa de los varios departamentos
 
-Lamentablemente la miopía estratégica es algo que se ha ido acrecentado desde hace diez anos, haciendo que la innovación se reduzca, la productividad se estrangule y que la mayoría de los departamentos de producto las empresas de producto digital acaben devorando a sus hijos.
+Lamentablemente *la miopía estratégica* es algo que se ha ido acrecentado desde hace diez años, haciendo que la innovación se reduzca, la productividad se estrangule y que la mayoría de los departamentos de producto las empresas de producto digital acaben devorando a sus hijos.
