@@ -11,8 +11,7 @@
 		<link webc:keep rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prism-theme-vars/base.css">
 		<link webc:keep rel="preconnect" href="https://fonts.googleapis.com">
 		<link webc:keep rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link webc:keep href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-		<link webc:keep href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+		<link webc:keep href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
 		<title>javierlopezdeancos.dev</title>
 		<style webc:keep @html="this.getCSS(this.page?.url)"></style>
 		<script webc:keep @html="this.getJS(this.page?.url)"></script>
@@ -26,7 +25,7 @@
 
 <style webc>
 	.b612-app {
-		font-family: 'Space Mono', monospace;
+		font-family: 'JetBrains Mono', monospace;
 		padding: var(--hggs-space-md-default);
 		display: flex;
 		flex-direction: column;
@@ -61,54 +60,54 @@
 		}
 
 		& .hggs-h1 {
-			font-family: 'Space Mono', monospace;
+			font-family: 'JetBrains Mono', monospace;
 			font-weight: 400;
 			text-align: left;
 			hyphens: auto;
 		}
 
 		& .hggs-h2 {
-			font-family: 'Space Mono', monospace;
+			font-family: 'JetBrains Mono', monospace;
 			font-weight: 400;
 			text-align: left;
 			hyphens: auto;
 		}
 
 		& .hggs-h3 {
-			font-family: 'Space Mono', monospace;
+			font-family: 'JetBrains Mono', monospace;
 			font-weight: 400;
 			text-align: left;
 			hyphens: auto;
 		}
 
 		& .hggs-h4 {
-			font-family: 'Space Mono', monospace;
+			font-family: 'JetBrains Mono', monospace;
 			font-weight: 400;
 			text-align: left;
 			hyphens: auto;
 		}
 
 		& .hggs-h5 {
-			font-family: 'Space Mono', monospace;
+			font-family: 'JetBrains Mono', monospace;
 			font-weight: 400;
 			text-align: left;
 			hyphens: auto;
 		}
 
 		& .hggs-h6 {
-			font-family: 'Space Mono', monospace;
+			font-family: 'JetBrains Mono', monospace;
 			font-weight: 400;
 			text-align: left;
 			hyphens: auto;
 		}
 
 		& .hggs-text {
-			font-family: "Source Code Pro", monospace;
+			font-family: "JetBrains Mono", monospace;
 			hyphens: auto;
 		}
 
 		& .hggs-link {
-			font-family: "Source Code Pro", monospace;
+			font-family: "JetBrains Mono", monospace;
 			font-weight: 200;
 			text-decoration: none;
 			font-style: normal;
@@ -125,7 +124,7 @@
 				margin-bottom: var(--hggs-space-default);
 
 				& a {
-					font-family: "Source Code Pro", monospace;
+					font-family: "JetBrains Mono", monospace;
 					font-weight: 600;
 					margin: 0;
 					hyphens: auto;
