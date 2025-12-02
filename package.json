@@ -7,11 +7,11 @@
     "@11ty/eleventy": "^3.1.2",
     "@11ty/eleventy-img": "^6.0.4",
     "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.2",
-    "@11ty/eleventy-plugin-webc": "^0.11.2",
+    "@11ty/eleventy-plugin-webc": "^0.4.0",
     "@toycode/markdown-it-class": "^1.2.4",
     "markdown-it": "^14.1.0",
     "markdownlint": "^0.38.0",
-    "markdownlint-cli": "^0.45.0",
+    "markdownlint-cli": "^0.46.0",
     "prettier": "^3.6.2",
     "sharp": "^0.34.3"
   },
@@ -32,5 +32,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/javierlopezdeancos/B612Blog"
+  },
+  "dependencies": {
+    "@11ty/eleventy-plugin-rss": "^2.0.4"
   }
 }
