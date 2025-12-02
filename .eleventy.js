@@ -68,13 +68,8 @@ module.exports = function (eleventyConfig) {
   })
 
   eleventyConfig.addPlugin(eleventyImagePlugin, {
-    // Set global default options
     formats: ["webp", "jpeg", "png"],
     urlPath: "/img/",
-
-    // Notably `outputDir` is resolved automatically
-    // to the project output directory
-
     defaultAttributes: {
       loading: "lazy",
       decoding: "async",
@@ -96,7 +91,7 @@ module.exports = function (eleventyConfig) {
     type: "rss",
     outputPath: "/feed.xml",
     collection: {
-      name: "posts",
+      name: "post",
       limit: 0,
     },
     metadata: {
@@ -123,7 +118,6 @@ module.exports = function (eleventyConfig) {
 
   return {
     dir: {
-      // ⚠️ These values are both relative to your input directory.
       includes: "_includes",
       layouts: "src/layouts",
       data: "data",
