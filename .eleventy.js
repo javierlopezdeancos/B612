@@ -3,6 +3,7 @@ const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight")
 const markdownIt = require("markdown-it")
 const markdownItClass = require("@toycode/markdown-it-class")
 const { eleventyImagePlugin } = require("@11ty/eleventy-img")
+const { feedPlugin } = require("@11ty/eleventy-plugin-rss")
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/styles")
@@ -67,13 +68,8 @@ module.exports = function (eleventyConfig) {
   })
 
   eleventyConfig.addPlugin(eleventyImagePlugin, {
-    // Set global default options
     formats: ["webp", "jpeg", "png"],
     urlPath: "/img/",
-
-    // Notably `outputDir` is resolved automatically
-    // to the project output directory
-
     defaultAttributes: {
       loading: "lazy",
       decoding: "async",
@@ -91,6 +87,25 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addPlugin(syntaxHighlight)
 
+  eleventyConfig.addPlugin(feedPlugin, {
+    type: "rss",
+    outputPath: "/feed.xml",
+    collection: {
+      name: "post",
+      limit: 0,
+    },
+    metadata: {
+      language: "es",
+      title: "Blog de Javier López de Ancos - javierlopezdeancos.dev",
+      subtitle: "Roma no se construyo en un story point",
+      base: "https://javierlopezdeancos.dev/blog",
+      author: {
+        name: "Javier López de Ancos",
+        email: "javierlopezdeancos@outlook.com",
+      },
+    },
+  })
+
   eleventyConfig.setServerOptions({
     liveReload: true,
     domDiff: true,
@@ -103,7 +118,6 @@ module.exports = function (eleventyConfig) {
 
   return {
     dir: {
-      // ⚠️ These values are both relative to your input directory.
       includes: "_includes",
       layouts: "src/layouts",
       data: "data",
