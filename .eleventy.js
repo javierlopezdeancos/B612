@@ -3,6 +3,7 @@ const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight")
 const markdownIt = require("markdown-it")
 const markdownItClass = require("@toycode/markdown-it-class")
 const { eleventyImagePlugin } = require("@11ty/eleventy-img")
+const { feedPlugin } = require("@11ty/eleventy-plugin-rss")
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/styles")
@@ -90,6 +91,25 @@ module.exports = function (eleventyConfig) {
   })
 
   eleventyConfig.addPlugin(syntaxHighlight)
+
+  eleventyConfig.addPlugin(feedPlugin, {
+    type: "rss",
+    outputPath: "/feed.xml",
+    collection: {
+      name: "posts",
+      limit: 0,
+    },
+    metadata: {
+      language: "es",
+      title: "Blog de Javier López de Ancos - javierlopezdeancos.dev",
+      subtitle: "Roma no se construyo en un story point",
+      base: "https://javierlopezdeancos.dev/blog",
+      author: {
+        name: "Javier López de Ancos",
+        email: "javierlopezdeancos@outlook.com",
+      },
+    },
+  })
 
   eleventyConfig.setServerOptions({
     liveReload: true,
